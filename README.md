@@ -34,4 +34,7 @@ For first time contributors, kindly work on issues tagged
 2. Clone the forked repo with `https://github.com/your_username/Community-Website.git` where `your_username` is your github username.
 3. And you're all set!
 
-### Happy opensourcing!! :smile:
+# Creating a PR
+Please create a PR with detailed info on your change with screenshots if possible
+
+### Happy opensourcing :smile: !!
