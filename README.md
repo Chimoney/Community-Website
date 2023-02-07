@@ -15,7 +15,7 @@ Here's a visual representation of the Community site design
 `image`
 
 # Code of Conduct
-Please read and abide by our [Code of Conduct;](https://docs.google.com/document/d/1ePyYNcM-uo387XwTtTvrxhA1FOVzL6ykVn38cZy3fZY/edit?usp=sharing) 
+Please read and abide by our [Code of Conduct;](https://github.com/Chimoney/Community-Website/blob/main/CODE_OF_CONDUCT.md) 
 our community aspires to be a respectful place during our online interactions.
 
 # Contributing
