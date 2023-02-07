@@ -3,11 +3,10 @@ A website for the Chimoney Community by the ChiMers(Chimoney Community Members).
 Community.
 
 # Code of Conduct
-Please read and abide by our [Code of Conduct] (https://docs.google.com/document/d/1ePyYNcM-uo387XwTtTvrxhA1FOVzL6ykVn38cZy3fZY/edit?usp=sharing); 
+Please read and abide by our [Code of Conduct].(https://docs.google.com/document/d/1ePyYNcM-uo387XwTtTvrxhA1FOVzL6ykVn38cZy3fZY/edit?usp=sharing); 
 our community aspires to be a respectful place both during online interactions.
 
-Start contributing via Gitpod
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Chimoney/Community-Website)
+Start contributing via Gitpod[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Chimoney/Community-Website)
 
 The site showcases different sections of content that include:
 
