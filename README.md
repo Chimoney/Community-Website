@@ -15,14 +15,14 @@ Here's a visual representation of the Community site design
 `image`
 
 # Code of Conduct
-Please read and abide by our [Code of Conduct](https://docs.google.com/document/d/1ePyYNcM-uo387XwTtTvrxhA1FOVzL6ykVn38cZy3fZY/edit?usp=sharing) 
+Please read and abide by our [Code of Conduct;](https://docs.google.com/document/d/1ePyYNcM-uo387XwTtTvrxhA1FOVzL6ykVn38cZy3fZY/edit?usp=sharing) 
 our community aspires to be a respectful place during our online interactions.
 
 # Contributing
 We welcome contributions and are also interested in first-time contributors! 
 For first time contributors, kindly work on issues tagged
 
-[![first-timers-only-friendly](https://img.shields.io/badge/first--timers--only-blue.svg?style=flat-square)](#)
+[![first-timers-only-friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](#)
 
 ## Contribute via Gitpod:
 
