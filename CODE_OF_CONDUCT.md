@@ -9,4 +9,5 @@
 * If a participant engages in harassing behavior, Chimoney may take any action it deems appropriate, including warning the offender or expulsion from the community. 
 * If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact Chimoney using the reporting procedures defined below.
 * Kindly send violation reports to the general reporting line: 
+
  General Reporting - team@chimoney.io
