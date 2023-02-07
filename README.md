@@ -2,6 +2,7 @@
 A website for the Chimoney Community by the ChiMers(Chimoney Community Members). This is a content hub for the contributions and initiatives of the Chimoney
 Community.
 
+## Sections
 The site showcases different sections of content that include:
 
 * Blog
