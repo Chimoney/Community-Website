@@ -18,7 +18,8 @@ Here's a visual representation of the Community site design
 
 # Contributing
 We welcome contributions and are also interested in first-time contributors! 
-For first time contributors, kindly work on issues tagged 
+For first time contributors, kindly work on issues tagged
+
 [![first-timers-only-friendly](https://img.shields.io/badge/first--timers--only-blue.svg?style=flat-square)](#)
 
 ## Contribute via Gitpod:
@@ -27,7 +28,7 @@ For first time contributors, kindly work on issues tagged
 
 
 ## Start Contributing
-Fork the repo from [Chimoney-Community-Website](https://github.com/Chimoney/Community-Website)
-Clone the forked repo with `https://github.com/your-username/Community-Website.git` where `your_username` is your github username.
+1. Fork the repo from [Chimoney-Community-Website](https://github.com/Chimoney/Community-Website)
+2. Clone the forked repo with `https://github.com/your-username/Community-Website.git` where `your_username` is your github username.
 
 ### Happy opensourcing. :smile:
