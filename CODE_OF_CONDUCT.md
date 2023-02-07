@@ -10,4 +10,4 @@
 * If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact Chimoney using the reporting procedures defined below.
 * Kindly send violation reports to the general reporting line: 
 
- - General Reporting - team@chimoney.io
+ *General Reporting - team@chimoney.io
