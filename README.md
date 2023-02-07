@@ -5,7 +5,7 @@ Community.
 ## Sections
 The site showcases different sections of content that include:
 
-* Blog
+* Blogs
 * Tutorials
 * Events
 
