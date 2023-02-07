@@ -2,10 +2,6 @@
 A website for the Chimoney Community by the ChiMers(Chimoney Community Members). This is a content hub for the contributions and initiatives of the Chimoney
 Community.
 
-# Code of Conduct
-Please read and abide by our [Code of Conduct](https://docs.google.com/document/d/1ePyYNcM-uo387XwTtTvrxhA1FOVzL6ykVn38cZy3fZY/edit?usp=sharing); 
-our community aspires to be a respectful place during our online interactions.
-
 The site showcases different sections of content that include:
 
 * Blog
@@ -16,6 +12,10 @@ The site showcases different sections of content that include:
 Here's a visual representation of the Community site design
 
 `image`
+
+# Code of Conduct
+Please read and abide by our [Code of Conduct](https://docs.google.com/document/d/1ePyYNcM-uo387XwTtTvrxhA1FOVzL6ykVn38cZy3fZY/edit?usp=sharing) 
+our community aspires to be a respectful place during our online interactions.
 
 # Contributing
 We welcome contributions and are also interested in first-time contributors! 
