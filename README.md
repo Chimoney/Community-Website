@@ -1,5 +1,4 @@
 ![Chimoney Community](assets/images/Chimoney.png)
-
 # Chimoney Community Site
 A website for the Chimoney Community by the ChiMers(Chimoney Community Members). This is a content hub for the contributions and initiatives of the Chimoney
 Community.
