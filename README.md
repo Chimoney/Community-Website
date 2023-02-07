@@ -32,5 +32,6 @@ For first time contributors, kindly work on issues tagged
 ## Start Contributing
 1. Fork the repo from [Chimoney-Community-Website](https://github.com/Chimoney/Community-Website)
 2. Clone the forked repo with `https://github.com/your_username/Community-Website.git` where `your_username` is your github username.
+3. And you're all set!
 
-### Happy opensourcing. :smile:
+### Happy opensourcing!! :smile:
