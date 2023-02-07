@@ -1,3 +1,6 @@
+![Chimoney Community](assets/images/Chimoney Purple.png)
+(https://github.com/Chimoney/Community-Website/blob/main/assets/images/Chimoney%20Purple.png)
+
 # Chimoney Community Site
 A website for the Chimoney Community by the ChiMers(Chimoney Community Members). This is a content hub for the contributions and initiatives of the Chimoney
 Community.
