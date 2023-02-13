@@ -11,7 +11,7 @@ The site showcases different sections of content that include:
 * Events
 
 # Design
-Here's a visual representation of the Community site design
+Using the [Chimoney brand guidelines](https://docs.google.com/document/d/11Niq7-F96alud7s9S08km22MJ5bS2ZYF_xbiJSX8o4I/edit?usp=sharing), design a visual representation of the Community site design
 
 `image`
 
