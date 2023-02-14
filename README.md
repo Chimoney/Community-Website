@@ -3,6 +3,9 @@
 A website for the Chimoney Community by the ChiMers(Chimoney Community Members). This is a content hub for the contributions and initiatives of the Chimoney
 Community.
 
+# Project Guideline
+Kindly go through the [project guideline](https://docs.google.com/document/d/1XPRIpseQhF6h8TVtrClNS7XghT5ICjPK8R4raLWJLkc/edit?usp=sharing) before contributing.
+
 ## Sections
 The site showcases different sections of content that include:
 
