@@ -26,4 +26,4 @@
 - This stage will involve updating the Community Site with upcoming, past events and new content that have been created over the month.
 - It will take place **monthly**.
 
-![Chimoney Community](assets/images/Blue and Black Mind Map Presentation.jpg)
+![Chimoney Community](assets/images/pg.jpg)
