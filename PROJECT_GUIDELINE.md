@@ -8,8 +8,8 @@
 - Great addition to portfolio
 
 ## Resources
-- Code of Conduct
-- Brand Guideline
+- [Code of Conduct](https://github.com/Chimoney/Community-Website/blob/bb13bc6364015851bf70d267eecf2c9b30e12470/CODE_OF_CONDUCT.md)
+- [Brand Guideline](https://docs.google.com/document/d/11Niq7-F96alud7s9S08km22MJ5bS2ZYF_xbiJSX8o4I/edit?usp=sharing)
 
 ## Phases
 ### Website Design Stage 
