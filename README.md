@@ -4,7 +4,7 @@ A website for the Chimoney Community by the ChiMers(Chimoney Community Members).
 Community.
 
 # Project Guideline
-Kindly go through the [project guideline](https://docs.google.com/document/d/1XPRIpseQhF6h8TVtrClNS7XghT5ICjPK8R4raLWJLkc/edit?usp=sharing) before contributing.
+Kindly go through the [project guideline](https://github.com/Chimoney/Community-Website/blob/7a91fb7602500da19b5f8b6cdadafc4cedc0877b/PROJECT_GUIDELINE.md) before contributing.
 
 ## Sections
 The site showcases different sections of content that include:
