@@ -23,4 +23,7 @@
 - This stage will involve technical writers, bloggers and content creators working together to populate the site. It will take place over **1 week**.
 
 ### Maintenance Stage
-- This stage will involve updating the Community Site with upcoming, past events and new content that have been created over the month.It will take place monthly.
+- This stage will involve updating the Community Site with upcoming, past events and new content that have been created over the month.
+- It will take place **monthly**.
+
+![Chimoney Community](assets/images/Blue and Black Mind Map Presentation.jpg)
