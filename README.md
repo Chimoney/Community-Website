@@ -13,11 +13,10 @@ The site showcases different sections of content that include:
 * Tutorials
 * Events
 
-# Design
-Using the [Chimoney brand guidelines](https://docs.google.com/document/d/11Niq7-F96alud7s9S08km22MJ5bS2ZYF_xbiJSX8o4I/edit?usp=sharing), design a visual representation of the Community site design
+# Community Site Design
+
 [Figma Design](https://www.figma.com/file/TOZC54ULBuHUA1EU5tZK3k/Chimoney-Community-Website-Design-Contributions?node-id=220%3A128&t=fMbtxmVcO2YETJ1i-0)
 
-`image`
 
 # Code of Conduct
 Please read and abide by our [Code of Conduct;](https://github.com/Chimoney/Community-Website/blob/main/CODE_OF_CONDUCT.md) 
