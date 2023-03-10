@@ -1,3 +1,4 @@
+// footer copyright year
 function getCopyRightYear() {
    const span = document.getElementsByClassName('year')
    const d = new Date()
