@@ -87,12 +87,23 @@ body {
     padding: 1.5rem;
 }
 
+.comm-care-section-1 > h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .comm-care-section-2 {
     padding: 1.5rem;
+    width: 40%;
 }
 
 .comm-care-section-2.1 {
-    width: 40%;
+    margin-bottom: 2rem;
+}
+
+.comm-care-section-2.2 {
+    /* margin-top: .5rem; */
 }
 
 .comm-care-btn {
@@ -106,4 +117,5 @@ body {
     gap: 10px;
 
     border-radius: 20px;
+    margin-top: 2.5rem;
 }
