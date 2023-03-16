@@ -3,71 +3,33 @@
     font-size: 62.5%; //10px
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Exo+2:wght@300;400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Times New Roman";
+    font-family: "Exo 2", sans-serif;
 }
 
-/* UTILITIES */
-
-.container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 80rem;
-    margin: 0 auto;
-    padding: 2rem;
-}
-
-.container > * {
-    width: 100%;
-}
-
-.flex-column {
-    display: flex;
-    flex-direction: column;
-}
-
-.flex-center {
-    justify-content: center;
-    align-items: center;
-}
-
-.justify-center {
-    justify-content: center;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.hidden {
-    display: none;
-}
-
-/* END OF UTILITIES */
 body {
-    /* position: relative; */
+    position: relative;
     background-color: #555;
     width: 100%;
 }
 
 .comm-care {
-    width: 100vw;
+    position: absolute;
+    top: 3144px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .comm-care-main {
-    /* position: absolute; */
-    width: 80%;
+    width: 100%;
     height: 342px;
-    top: 3144px;
     background-color: #f7f7f7;
     color: #670B78;
 
@@ -84,13 +46,14 @@ body {
 }
 
 .comm-care-section-1 {
-    padding: 1.5rem;
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .comm-care-section-1 > h3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 3rem;
 }
 
 .comm-care-section-2 {
@@ -110,12 +73,30 @@ body {
     background-color: #670B78;
     color: #fff;
     display: flex;
+    font-size: 1.5rem;
 
     flex-direction: row;
     align-items: flex-start;
-    padding: 12px 40px;
+    padding: .7rem 3.5rem;
     gap: 10px;
 
+    border: none;
     border-radius: 20px;
     margin-top: 2.5rem;
+}
+
+.comm-care-btn:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .comm-care-main {
+        flex-direction: column;
+        font-size: 1.5rem;
+        padding: .5rem;
+    }
+
+    .comm-care-section-2 {
+        margin-top: 0;
+    }
 }
