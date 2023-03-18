@@ -1,90 +1,16 @@
 :root {
     /* background-color: #ecf5ff; */
-    font-size: 62.5%; //10px
+    font-size: 62.5%; 
 }
 
-.comm-care {
-    position: absolute;
-    top: 3144px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+html,
+body {
+   padding: 0;
+   margin: 0;
+   width: 100%;
+   box-sizing: border-box;
 }
 
-.comm-care-main {
-    width: 100%;
-    height: 342px;
-    background-color: #f7f7f7;
-    color: #670B78;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    font-size: 2rem;
-    padding: .5rem;
-}
-
-.comm-care-main > div {
-    width: 50%;
-}
-
-.comm-care-section-1 {
-    padding: 0 1.5rem 1.5rem 1.5rem;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-.comm-care-section-1 > h3 {
-    font-size: 3rem;
-}
-
-.comm-care-section-2 {
-    padding: 1.5rem;
-    width: 40%;
-}
-
-.comm-care-section-2.1 {
-    margin-bottom: 2rem;
-}
-
-.comm-care-section-2.2 {
-    /* margin-top: .5rem; */
-}
-
-.comm-care-btn {
-    background-color: #670B78;
-    color: #fff;
-    display: flex;
-    font-size: 1.5rem;
-
-    flex-direction: row;
-    align-items: flex-start;
-    padding: .7rem 3.5rem;
-    gap: 10px;
-
-    border: none;
-    border-radius: 20px;
-    margin-top: 2.5rem;
-}
-
-.comm-care-btn:hover {
-    cursor: pointer;
-}
-
-@media (max-width: 600px) {
-    .comm-care-main {
-        flex-direction: column;
-        font-size: 1.5rem;
-        padding: .5rem;
-    }
-
-    .comm-care-section-2 {
-        margin-top: 0;
-    }
-}
 /* Navbar CSS Start*/
 .navbar {
     display: flex;
@@ -339,13 +265,91 @@ margin: auto;
 /*END OF FEATURED POST-------------------------------------------
 ------------------------------------------------------------------*/
 
-html,
-body {
-   padding: 0;
-   margin: 0;
-   width: 100%;
-   box-sizing: border-box;
+/*COMMUNITY CARE */
+.comm-care {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 342px;
 }
+
+.comm-care-main {
+    width: 100%;
+    height: 342px;
+    background-color: #f7f7f7;
+    color: #670B78;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 2rem;
+    padding: .5rem;
+}
+
+.comm-care-main > div {
+    width: 50%;
+}
+
+.comm-care-section-1 {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.comm-care-section-1 > h3 {
+    font-size: 3rem;
+}
+
+.comm-care-section-2 {
+    padding: 1.5rem;
+    width: 40%;
+}
+
+.comm-care-section-2-1 {
+    margin-bottom: 2rem;
+}
+
+.comm-care-section-2-2 {
+    /* margin-top: .5rem; */
+}
+
+.comm-care-btn {
+    background-color: #670B78;
+    color: #fff;
+    display: flex;
+    font-size: 1.5rem;
+
+    flex-direction: row;
+    align-items: flex-start;
+    padding: .7rem 3.5rem;
+    gap: 10px;
+
+    border: none;
+    border-radius: 20px;
+    margin-top: 2.5rem;
+}
+
+.comm-care-btn:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .comm-care-main {
+        flex-direction: column;
+        font-size: 1.5rem;
+        padding: .5rem;
+    }
+
+    .comm-care-section-2 {
+        margin-top: 0;
+    }
+}
+
+/* END OF COMMUNITY CARE */
+
 @media screen and (min-width: 602px){
    
    .footer{
