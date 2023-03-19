@@ -1,0 +1,3 @@
+steps taken
+a. created an image folder
+b. downloaded the bg images for the two screens
