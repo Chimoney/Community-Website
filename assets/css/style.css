@@ -1,8 +1,3 @@
-:root {
-    /* background-color: #ecf5ff; */
-    font-size: 62.5%; 
-}
-
 html,
 body {
    padding: 0;
@@ -10,6 +5,13 @@ body {
    width: 100%;
    box-sizing: border-box;
 }
+
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+/* Ubuntu */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Ubuntu:wght@300;400&display=swap');
+/* Exo 2 */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
 
 /* Navbar CSS Start*/
 .navbar {
@@ -102,9 +104,6 @@ body {
     }
   }
   /* End Navbar CSS  */
-
- @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Ubuntu:wght@300;400&display=swap');
 
 /*Featured post -------- --------------------------------------
 ----------------------------------------------------------------*/
@@ -266,6 +265,7 @@ margin: auto;
 ------------------------------------------------------------------*/
 
 /*COMMUNITY CARE */
+
 .comm-care {
     width: 100%;
     display: flex;
@@ -277,12 +277,12 @@ margin: auto;
 .comm-care-main {
     width: 100%;
     height: 342px;
-    background-color: #f7f7f7;
+    background-color: #fff;
     color: #670B78;
 
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
 
     font-size: 2rem;
     padding: .5rem;
@@ -293,43 +293,58 @@ margin: auto;
 }
 
 .comm-care-section-1 {
-    padding: 0 1.5rem 1.5rem 1.5rem;
     display: flex;
-    align-items: flex-start;
+    align-content: start;
     justify-content: center;
 }
 
 .comm-care-section-1 > h3 {
-    font-size: 3rem;
+   font-size: 38px;
+   font-family: 'Exo 2', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 38px;
+   line-height: 36px;
+   /* identical to box height, or 95% */
+   /* Dark magenta */
+   /* color: #670B78; */
 }
 
 .comm-care-section-2 {
     padding: 1.5rem;
     width: 40%;
+    font-family: 'Ubuntu';
 }
 
 .comm-care-section-2-1 {
-    margin-bottom: 2rem;
+   margin-bottom: 20px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 28px;
+   flex: none;
+   order: 1;
+   flex-grow: 0;
 }
 
 .comm-care-section-2-2 {
-    /* margin-top: .5rem; */
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
 }
 
 .comm-care-btn {
-    background-color: #670B78;
-    color: #fff;
-    display: flex;
-    font-size: 1.5rem;
+   background-color: #670B78;
+   color: #fff;
 
-    flex-direction: row;
-    align-items: flex-start;
-    padding: .7rem 3.5rem;
-    gap: 10px;
-
-    border: none;
-    border-radius: 20px;
-    margin-top: 2.5rem;
+   border: none;
+   border-radius: 100px;
+   margin-top: 20px;
+   padding: 12px 40px;
+   gap: 10px;
+   flex: none;
+   order: 0;
+   flex-grow: 0;
 }
 
 .comm-care-btn:hover {
