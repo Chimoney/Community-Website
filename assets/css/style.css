@@ -1,6 +1,109 @@
+html,
+body {
+   padding: 0;
+   margin: 0;
+   width: 100%;
+   box-sizing: border-box;
+}
 
- @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Ubuntu:wght@300;400&display=swap');
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+/* Ubuntu */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Ubuntu:wght@300;400&display=swap');
+/* Exo 2 */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
+
+/* Navbar CSS Start*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f445;
+    color: #333;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #f00;
+  }
+  
+  .navbar-toggle {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .navbar-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-nav {
+      display: none;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 0;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      padding: 10px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .nav-item {
+      margin: 10px 0;
+    }
+  
+    .navbar-toggle {
+      display: block;
+    }
+  
+    .navbar-toggle.active span:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+  
+    .navbar-toggle.active span:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .navbar-toggle.active span:nth-child(3) {
+      transform: rotate(-45deg) translate(5px, -5px);
+    }
+  }
+  /* End Navbar CSS  */
 
 /*Featured post -------- --------------------------------------
 ----------------------------------------------------------------*/
@@ -161,13 +264,127 @@ margin: auto;
 /*END OF FEATURED POST-------------------------------------------
 ------------------------------------------------------------------*/
 
-html,
-body {
-   padding: 0;
-   margin: 0;
-   width: 100%;
-   box-sizing: border-box;
+/*COMMUNITY CARE */
+
+.comm-care {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 342px;
 }
+
+.comm-care-main {
+    width: 100%;
+    height: 342px;
+    color: #670B78;
+    background-color: #F7F7F7;
+
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 2rem;
+    padding: .5rem;
+}
+
+.comm-care-main > div {
+    width: 50%;
+}
+
+.comm-care-section-1 {
+    display: flex;
+    align-content: start;
+    justify-content: center;
+}
+
+.comm-care-section-1 > h3 {
+   font-size: 38px;
+   font-family: 'Exo 2', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 38px;
+   line-height: 36px;
+}
+
+.comm-care-section-2 {
+    padding: 1.5rem;
+    width: 40%;
+    font-family: 'Ubuntu';
+}
+
+.comm-care-section-2-1 {
+   margin-bottom: 20px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 28px;
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+
+.comm-care-section-2-2 {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+}
+
+.comm-care-btn {
+   background-color: #670B78;
+   color: #fff;
+
+   border: none;
+   border-radius: 100px;
+   margin-top: 20px;
+   padding: 12px 40px;
+   gap: 10px;
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+
+.comm-care-btn:hover {
+    cursor: pointer;
+}
+
+/* Style for screens smaller than 480px */
+@media only screen and (max-width: 480px) {
+   /* CSS styles go here */
+ }
+ 
+ /* Style for screens between 480px and 768px */
+ @media only screen and (max-width: 600px) {
+   /* CSS styles go here */
+   .comm-care-main {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 15px;
+      padding: 5px;
+  }
+
+  .comm-care-section-1 > h3 {
+   font-size: 20px;
+  }
+
+  .comm-care-btn {
+      margin-top: 5px;
+      margin-top: 10px;
+      padding: 6px 20px;
+  }
+ }
+
+@media only screen and (max-width: 767px) {
+   .comm-care-section-1 > h3 {
+      font-size: 30px;
+   }
+   .comm-care-section-2-1 {
+      font-size: 15px;
+   }
+}
+
+/* END OF COMMUNITY CARE */
+
 @media screen and (min-width: 602px){
    
    .footer{
