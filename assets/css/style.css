@@ -444,16 +444,47 @@ margin: auto;
    left: 146.9552001953125px;
    top: 96.439697265625px;
    border-radius: 0px;
-
-   /* background: #E980FCCC; */
-
    position: absolute;
    left: 11.07%;
    right: 68.02%;
    top: 27.55%;
    bottom: 0%;
+   opacity: 50%;
+   background: radial-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.08) 50%,
+      transparent,
+      transparent,
+      transparent
+   );
+}
 
-   background: url('assets/vector.svg');
+.vector-2 {
+   height: 291.4860534667969px;
+   width: 413.8519287109375px;
+   left: 901.181396484375px;
+   top: 281.73388671875px;
+   border-radius: 0px;
+   /* background: #96F550CC; */
+   position: absolute;
+   left: 67.86%;
+   right: 0.98%;
+   top: 70.5%;
+   bottom: -63.78%;
+   opacity: 50%;
+   background: radial-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.08) 50%,
+      transparent,
+      transparent,
+      transparent
+   );
+
+   background: radial-gradient(
+      rgba(255, 255, 255, 0.2) 50%,
+      transparent,
+      transparent
+   );
 }
 /* END OF MAKE VALUE CARD */
 
