@@ -273,7 +273,7 @@ margin: auto;
     align-items: center;
     height: 342px;
    margin-top:5%;
-   margin-bottom: 1%;
+   margin-bottom: 0%;
 }
 
 .comm-care-main {
@@ -395,7 +395,7 @@ margin: auto;
    justify-content: center;
    align-items: center;
    background-color: #F7F7F7;
-   margin-bottom: 20px;
+   margin-bottom: 15%;
 }
 
 .make-value-content {
