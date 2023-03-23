@@ -387,6 +387,152 @@ margin: auto;
 
 /* END OF COMMUNITY CARE */
 
+/* MAKE VALUE CARD */
+.make-value-card {
+   height: 350px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #F7F7F7;
+   margin-bottom: 20px;
+}
+
+.make-value-content {
+   height: 100%;
+   background-color: #670B78;
+   width: 90%;
+   color: #fff;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-radius: 24px;
+
+   position: relative;
+   /* margin-bottom: 10px; */
+}
+
+.make-value-content p {
+   font-family: 'Exo 2';
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 20px;
+   letter-spacing: 0em;
+   text-align: center;
+
+}
+
+.make-value-btn {
+   height: 48px;
+   width: 255px;
+   border: none;
+   border-radius: 100px;
+   padding: 12px 40px 12px 40px;
+
+   font-family: 'Ubuntu';
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: 0em;
+   text-align: left;
+
+   color: #670B78;
+}
+
+.vector-1 {
+   height: 253.5603790283203px;
+   width: 277.70220947265625px;
+   left: 146.9552001953125px;
+   top: 96.439697265625px;
+   border-radius: 0px;
+   position: absolute;
+   left: 11.07%;
+   right: 68.02%;
+   top: 27.55%;
+   bottom: 0%;
+   opacity: 50%;
+   background: radial-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.08) 50%,
+      transparent,
+      transparent,
+      transparent
+   );
+}
+
+.vector-2 {
+   height: 291.4860534667969px;
+   width: 413.8519287109375px;
+   left: 901.181396484375px;
+   top: 281.73388671875px;
+   border-radius: 0px;
+   /* background: #96F550CC; */
+   position: absolute;
+   left: 67.86%;
+   right: 0.98%;
+   top: 70.5%;
+   bottom: -63.78%;
+   opacity: 50%;
+   background: radial-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.08) 50%,
+      transparent,
+      transparent,
+      transparent
+   );
+
+   background: radial-gradient(
+      rgba(255, 255, 255, 0.2) 50%,
+      transparent,
+      transparent
+   );
+}
+
+/* Style for screens smaller than 480px */
+@media only screen and (max-width: 480px) {
+   .make-value-content p {
+      font-size: 10px;
+   }
+
+   .make-value-btn {
+      font-size: 8px;
+   }
+ }
+ 
+ /* Style for screens between 480px and 768px */
+ @media only screen and (max-width: 600px) {
+   .make-value-content p {
+      font-size: 12px;
+   }
+
+   .make-value-btn {
+      font-size: 10px;
+   }
+ }
+
+@media only screen and (max-width: 767px) {
+   .make-value-content p {
+      font-size:15px;
+   }
+
+   .make-value-btn {
+      font-size: 10px;
+   }
+}
+
+@media only screen and (max-width: 1200px) {
+   .make-value-content p {
+      font-size: 20px;
+   }
+
+   .make-value-btn {
+      font-size: 12px;
+   }
+}
+/* END OF MAKE VALUE CARD */
+
+
 @media screen and (min-width: 602px){
    
    .footer{
