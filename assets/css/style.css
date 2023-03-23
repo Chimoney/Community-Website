@@ -486,6 +486,48 @@ margin: auto;
       transparent
    );
 }
+
+/* Style for screens smaller than 480px */
+@media only screen and (max-width: 480px) {
+   .make-value-content p {
+      font-size: 10px;
+   }
+
+   .make-value-btn {
+      font-size: 8px;
+   }
+ }
+ 
+ /* Style for screens between 480px and 768px */
+ @media only screen and (max-width: 600px) {
+   .make-value-content p {
+      font-size: 12px;
+   }
+
+   .make-value-btn {
+      font-size: 10px;
+   }
+ }
+
+@media only screen and (max-width: 767px) {
+   .make-value-content p {
+      font-size:15px;
+   }
+
+   .make-value-btn {
+      font-size: 10px;
+   }
+}
+
+@media only screen and (max-width: 1200px) {
+   .make-value-content p {
+      font-size: 20px;
+   }
+
+   .make-value-btn {
+      font-size: 12px;
+   }
+}
 /* END OF MAKE VALUE CARD */
 
 
