@@ -29,7 +29,7 @@ New projects are always welcome, to suggest a new project:
 ## Working with Articles
 1. Once a project has been assigned to you, write your article on hashnode and submit the finished article link under your assigned project on GitHub, and tag @mzoyinda to review your draft.
 2. Once your article has been accepted and you will be added to the Chimoney community as a writer.
-3. Go to your article publish settings and switch the publish location to chimoney teams 
+3. Go to your article publish settings and switch the publish location to chimoney teams.
 4. Submit your draft for the last review and publishing.
 5. You’ll be notified when your article gets published.
 
