@@ -265,22 +265,32 @@ margin: auto;
 ------------------------------------------------------------------*/
 
 /*COMMUNITY CARE */
+.comm-n-value {
+   background-color: #F7F7F7;
+}
+
 
 .comm-care {
    width: 100%;
+   display: grid;
+   place-items: center;
+
+   margin-top: 5%;
+   margin-bottom: 5%;
+}
+
+.comm-care-main {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   margin-top: 5%;
-   margin-bottom: 5%;
+   width: 90%;
    color: #670B78;
-   background-color: #F7F7F7;
 
    font-size: 2rem;
    padding: .5rem;
 }
 
-.comm-care > div {
+.comm-care-main > div {
     width: 50%;
 }
 
@@ -352,7 +362,7 @@ margin: auto;
  /* Style for screens between 480px and 768px */
  @media only screen and (max-width: 600px) {
    /* CSS styles go here */
-   .comm-care {
+   .comm-care-main {
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -385,8 +395,7 @@ margin: auto;
 /* MAKE VALUE CARD */
 .make-value-card {
    width: 100%;
-   background-color: #F7F7F7;
-   margin-bottom: 15%;
+   margin-bottom: 10%;
    display: grid;
    place-items: center;
 }
@@ -403,7 +412,7 @@ margin: auto;
 
    position: relative;
    padding: 6px 10px;
-   /* margin-bottom: 10px; */
+   margin-bottom: 5%;
 }
 
 .make-value-content p {
@@ -412,7 +421,6 @@ margin: auto;
    font-weight: 700;
    letter-spacing: 0em;
    text-align: center;
-
 }
 
 .make-value-btn {
