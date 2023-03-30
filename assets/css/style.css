@@ -4,14 +4,9 @@ body {
    margin: 0;
    width: 100%;
    box-sizing: border-box;
+   font-family: "Poppins"
 }
 
-/* Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
-/* Ubuntu */
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Ubuntu:wght@300;400&display=swap');
-/* Exo 2 */
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
 
 /* Navbar CSS Start*/
 .navbar {
