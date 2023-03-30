@@ -120,7 +120,7 @@ body {
 
 .feature-heading{
     margin-bottom:1px ;
-    font-family: 'Ubuntu';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -151,7 +151,7 @@ body {
 }
 .name{
     color:#1E1E1E;
-    font-family: 'Ubuntu';
+    font-family: 'Poppins';
     font-weight: 300;
     font-size: 14px;
     line-height: 24px;
@@ -165,7 +165,7 @@ body {
 
 .title{
     color: #263238;
-    font-family: 'Exo 2';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -178,7 +178,7 @@ body {
 }
 .article{
     color: #263238;
-    font-family: 'Ubuntu';
+    font-family: 'Poppins';
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -199,7 +199,7 @@ body {
     padding: 2px;
     line-height: 24px;
     font-size: 12px;
-    font-family: 'ubuntu';
+    font-family: 'Poppins';
     width: 100px;
     font-weight: 300;
     text-decoration: none;
@@ -207,7 +207,7 @@ body {
     margin: auto 0;
 }
 .time{
-    font-family: Ubuntu;
+    font-family: 'Poppins';
     font-size: 14px;
     font-weight: 300;
     line-height: 24px;
@@ -216,7 +216,7 @@ body {
 }
 
 .see-more{
-font-family: Ubuntu;
+font-family: 'Poppins';
 font-size: 16px;
 color:#670B78;
 background: #fff;
@@ -301,7 +301,7 @@ margin: auto;
 
 .comm-care-section-1 > h3 {
    font-size: 38px;
-   font-family: 'Exo 2', sans-serif;
+   font-family: 'Poppins', sans-serif;
    font-style: normal;
    font-weight: 500;
    font-size: 38px;
@@ -311,7 +311,7 @@ margin: auto;
 .comm-care-section-2 {
     padding: 1.5rem;
     width: 40%;
-    font-family: 'Ubuntu';
+    font-family: 'Poppins';
 }
 
 .comm-care-section-2-1 {
@@ -414,7 +414,7 @@ margin: auto;
 }
 
 .make-value-content p {
-   font-family: 'Exo 2';
+   font-family: 'Poppins';
    font-size: 30px;
    font-weight: 700;
    line-height: 20px;
@@ -430,7 +430,7 @@ margin: auto;
    border-radius: 100px;
    padding: 12px 40px 12px 40px;
 
-   font-family: 'Ubuntu';
+   font-family: 'Poppins';
    font-size: 16px;
    font-weight: 400;
    line-height: 24px;
@@ -657,7 +657,7 @@ margin: auto;
    }
    .footer .section .right_sec .articles ul li  a{
       text-decoration: none;
-      font-family: 'Ubuntu';
+      font-family: 'Poppins';
       font-style: normal;
       font-weight: 400;
       font-size: 1.25vw;
@@ -769,7 +769,7 @@ margin: auto;
          object-fit: cover;
    }
    .footer .section .left_sec  p {
-      font-family: 'Ubuntu';
+      font-family: 'Poppins';
       font-style: normal;
       font-weight: 400;
       font-size: 4.8vw;
@@ -835,7 +835,7 @@ margin: auto;
       text-decoration: none;
       cursor: pointer;
       transition: opacity 0.5s ease-in-out;
-      font-family: 'Ubuntu';
+      font-family: 'Poppins';
       font-style: normal;
       font-weight: 400;
       font-size: 4.8vw;
@@ -854,7 +854,7 @@ margin: auto;
       padding-bottom: 10.5vw;
    }
    .footer .section .copyright p{
-      font-family: 'Ubuntu';
+      font-family: 'Poppins';
       font-style: normal;
       font-weight: 400;
       font-size: 4.8vw;
