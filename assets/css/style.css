@@ -42,9 +42,10 @@ body {
    color: #333;
    border: none;
    background-color: white;
+   font-size: medium;
 }
 
-#sign-in:hover{
+#sign-in:hover {
    color: #670B78;
 }
 
@@ -53,21 +54,69 @@ body {
    border: none;
    background-color: #670B78;
    padding: 1vw;
+   font-size: medium;
+   padding-left: 2vw;
+   padding-right: 2vw;
    border-radius: 100vw;
 }
 
-#contact-sales:hover{
+#contact-sales:hover {
    color: #333;
    border: none;
    background-color: #ffffff;
-   padding: 1vw;
    border-radius: 100vw;
+   box-shadow: 0px 0px 5px #670B78;
 }
+
 /* End Navbar CSS  */
 
 /*--------------------------------------------------------------------------------------*/
 
 /* CSS for Hero section */
+.hero-section {
+   display: flex;
+   color: rgba(38, 50, 56, 1);
+   height: 60vh;
+   margin-top: 2vh;
+   margin-bottom: 2vh;
+   margin-left: 7vw;
+}
+
+.heading {
+   width: 55%;
+   padding-top: 9vh;
+}
+
+.heading h1 {
+   line-height: 3vh;
+   font-size: 4vw;
+   font-style: normal;
+   font-weight: 900;
+   align-items: center;
+
+}
+
+.heading h3 {
+   line-height: 2vh;
+   font-size: 1.5vw;
+   font-weight: lighter;
+}
+
+.header-image {
+   width: 45%;
+}
+
+.heading button{
+   margin: 3vh;
+}
+.header-image img {
+   height: 55vh;
+   width: 50vw;
+   align-items: center;
+   padding-right: 5vw;
+}
+
+/* End of Hero section*/
 
 
 /*Featured post -------- --------------------------------------
