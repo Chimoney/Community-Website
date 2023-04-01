@@ -4,8 +4,9 @@ body {
    margin: 0;
    width: 100%;
    box-sizing: border-box;
-   font-family: 'Poppins', sans-serif;
+   font-family: "Poppins"
 }
+
 
 /* Navbar CSS Start*/
 .navbar {
@@ -58,65 +59,30 @@ body {
    padding-left: 2vw;
    padding-right: 2vw;
    border-radius: 100vw;
+   font-weight: bold;
+   padding-left: 2vw;
+   padding-right: 2vw;
 }
 
-#contact-sales:hover {
+#contact-sales:hover{
    color: #333;
    border: none;
    background-color: #ffffff;
+   padding: 1vw;
    border-radius: 100vw;
-   box-shadow: 0px 0px 5px #670B78;
 }
 
 /* End Navbar CSS  */
 
-/*--------------------------------------------------------------------------------------*/
+/* Hero-section CSS Start*/
+.hero-section {
+   background-color: white;
+   display: flex;
+   color: #263238;
+   align-items: center;
+}
 
 /* CSS for Hero section */
-.hero-section {
-   display: flex;
-   color: rgba(38, 50, 56, 1);
-   height: 60vh;
-   margin-top: 2vh;
-   margin-bottom: 2vh;
-   margin-left: 7vw;
-}
-
-.heading {
-   width: 55%;
-   padding-top: 9vh;
-}
-
-.heading h1 {
-   line-height: 3vh;
-   font-size: 4vw;
-   font-style: normal;
-   font-weight: 900;
-   align-items: center;
-
-}
-
-.heading h3 {
-   line-height: 2vh;
-   font-size: 1.5vw;
-   font-weight: lighter;
-}
-
-.header-image {
-   width: 45%;
-}
-
-.heading button{
-   margin: 3vh;
-}
-.header-image img {
-   height: 55vh;
-   width: 50vw;
-   align-items: center;
-   padding-right: 5vw;
-}
-
-/* End of Hero section*/
 
 
 /*Featured post -------- --------------------------------------
@@ -135,6 +101,7 @@ body {
 
 .feature-heading {
    margin-bottom: 1px;
+   font-family: 'Poppins';
    font-style: normal;
    font-weight: 400;
    font-size: 16px;
@@ -171,6 +138,7 @@ body {
 
 .name {
    color: #1E1E1E;
+   font-family: 'Poppins';
    font-weight: 300;
    font-size: 14px;
    line-height: 24px;
@@ -185,6 +153,7 @@ body {
 
 .title {
    color: #263238;
+   font-family: 'Poppins';
    font-style: normal;
    font-weight: 700;
    font-size: 20px;
@@ -199,6 +168,7 @@ body {
 
 .article {
    color: #263238;
+   font-family: 'Poppins';
    font-weight: 400;
    font-size: 16px;
    line-height: 24px;
@@ -221,6 +191,7 @@ body {
    padding: 2px;
    line-height: 24px;
    font-size: 12px;
+   font-family: 'Poppins';
    width: 100px;
    font-weight: 300;
    text-decoration: none;
@@ -229,6 +200,7 @@ body {
 }
 
 .time {
+   font-family: 'Poppins';
    font-size: 14px;
    font-weight: 300;
    line-height: 24px;
@@ -237,6 +209,7 @@ body {
 }
 
 .see-more {
+   font-family: 'Poppins';
    font-size: 16px;
    color: #670B78;
    background: #fff;
@@ -292,25 +265,26 @@ body {
 ------------------------------------------------------------------*/
 
 /*COMMUNITY CARE */
+.comm-n-value {
+   background-color: #F7F7F7;
+}
+
 
 .comm-care {
    width: 100%;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   height: 342px;
+   display: grid;
+   place-items: center;
+
    margin-top: 5%;
-   margin-bottom: 0%;
+   margin-bottom: 5%;
 }
 
 .comm-care-main {
-   width: 100%;
-   height: 342px;
-   color: #670B78;
-   background-color: #F7F7F7;
-
    display: flex;
    justify-content: space-between;
+   align-items: center;
+   width: 90%;
+   color: #670B78;
 
    font-size: 2rem;
    padding: .5rem;
@@ -328,6 +302,7 @@ body {
 
 .comm-care-section-1>h3 {
    font-size: 38px;
+   font-family: 'Poppins', sans-serif;
    font-style: normal;
    font-weight: 500;
    font-size: 38px;
@@ -337,6 +312,7 @@ body {
 .comm-care-section-2 {
    padding: 1.5rem;
    width: 40%;
+   font-family: 'Poppins';
 }
 
 .comm-care-section-2-1 {
@@ -377,6 +353,10 @@ body {
 /* Style for screens smaller than 480px */
 @media only screen and (max-width: 480px) {
    /* CSS styles go here */
+
+   .comm-care-section-1>h3 {
+      font-size: 10px;
+   }
 }
 
 /* Style for screens between 480px and 768px */
@@ -416,17 +396,13 @@ body {
 
 /* MAKE VALUE CARD */
 .make-value-card {
-   height: 350px;
    width: 100%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background-color: #F7F7F7;
-   margin-bottom: 15%;
+   margin-bottom: 10%;
+   display: grid;
+   place-items: center;
 }
 
 .make-value-content {
-   height: 100%;
    background-color: #670B78;
    width: 90%;
    color: #fff;
@@ -437,30 +413,31 @@ body {
    border-radius: 24px;
 
    position: relative;
-   /* margin-bottom: 10px; */
+   padding: 6px 10px;
+   margin-bottom: 5%;
 }
 
 .make-value-content p {
+   font-family: 'Poppins';
    font-size: 30px;
    font-weight: 700;
-   line-height: 20px;
    letter-spacing: 0em;
    text-align: center;
-
 }
 
 .make-value-btn {
-   height: 48px;
-   width: 255px;
    border: none;
    border-radius: 100px;
    padding: 12px 40px 12px 40px;
+
+   font-family: 'Poppins';
    font-size: 16px;
    font-weight: 400;
-   line-height: 24px;
    letter-spacing: 0em;
    text-align: left;
+
    color: #670B78;
+   margin-bottom: 5%;
 }
 
 .vector-1 {
@@ -488,7 +465,6 @@ body {
    left: 901.181396484375px;
    top: 281.73388671875px;
    border-radius: 0px;
-   /* background: #96F550CC; */
    position: absolute;
    left: 67.86%;
    right: 0.98%;
@@ -509,11 +485,12 @@ body {
 /* Style for screens smaller than 480px */
 @media only screen and (max-width: 480px) {
    .make-value-content p {
-      font-size: 10px;
+      font-size: 5px;
    }
 
    .make-value-btn {
-      font-size: 8px;
+      font-size: 5px;
+      padding: 3px 10px 3px 10px;
    }
 }
 
@@ -696,6 +673,7 @@ body {
 
    .footer .section .right_sec .articles ul li a {
       text-decoration: none;
+      font-family: 'Poppins';
       font-style: normal;
       font-weight: 400;
       font-size: 1.25vw;
@@ -710,6 +688,7 @@ body {
    }
 
    .footer .section .right_sec .articles h3 {
+      font-family: 'Poppins';
       font-style: normal;
       font-weight: 600;
       font-size: 1.25vw;
@@ -722,7 +701,7 @@ body {
       margin: 0;
       border-top: 0.069vw solid #670B78;
       padding-top: 1.66vw;
-      padding-bottom: 2.77vw;
+      padding-bottom: 2.27vw;
    }
 
    .footer .section .copyright p {
@@ -820,6 +799,7 @@ body {
    }
 
    .footer .section .left_sec p {
+      font-family: 'Poppins';
       font-style: normal;
       font-weight: 400;
       font-size: 4.8vw;
@@ -868,6 +848,7 @@ body {
    }
 
    .footer .section .right_sec .articles h3 {
+      font-family: 'Poppins';
       font-style: normal;
       font-weight: 600;
       font-size: 4.8vw;
@@ -893,6 +874,7 @@ body {
       text-decoration: none;
       cursor: pointer;
       transition: opacity 0.5s ease-in-out;
+      font-family: 'Poppins';
       font-style: normal;
       font-weight: 400;
       font-size: 4.8vw;
@@ -914,6 +896,7 @@ body {
    }
 
    .footer .section .copyright p {
+      font-family: 'Poppins';
       font-style: normal;
       font-weight: 400;
       font-size: 4.8vw;
