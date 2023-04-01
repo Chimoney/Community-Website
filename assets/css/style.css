@@ -68,21 +68,57 @@ body {
    color: #333;
    border: none;
    background-color: #ffffff;
-   padding: 1vw;
+   box-shadow: 0px 0px 5px #670B78;
    border-radius: 100vw;
 }
 
 /* End Navbar CSS  */
 
-/* Hero-section CSS Start*/
+/* CSS for Hero section */
 .hero-section {
-   background-color: white;
    display: flex;
-   color: #263238;
-   align-items: center;
+   color: rgba(38, 50, 56, 1);
+   height: 60vh;
+   margin-top: 2vh;
+   margin-bottom: 2vh;
+   margin-left: 7vw;
 }
 
-/* CSS for Hero section */
+.heading {
+   width: 55%;
+   padding-top: 9vh;
+}
+
+.heading h1 {
+   line-height: 3vh;
+   font-size: 4vw;
+   font-style: normal;
+   font-weight: bolder;
+   align-items: center;
+
+}
+
+.heading h3 {
+   line-height: 2vh;
+   font-size: 1.5vw;
+   font-weight: lighter;
+}
+
+.header-image {
+   width: 45%;
+}
+
+.heading button{
+   margin: 3vh;
+}
+.header-image img {
+   height: 55vh;
+   width: 50vw;
+   align-items: center;
+   padding-right: 5vw;
+}
+
+/* End of Hero section*/
 
 
 /*Featured post -------- --------------------------------------
