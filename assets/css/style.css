@@ -4,14 +4,9 @@ body {
    margin: 0;
    width: 100%;
    box-sizing: border-box;
+   font-family: "Poppins"
 }
 
-/* Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
-/* Ubuntu */
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Ubuntu:wght@300;400&display=swap');
-/* Exo 2 */
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
 
 /* Navbar CSS Start*/
 .navbar {
@@ -120,7 +115,7 @@ body {
 
 .feature-heading{
     margin-bottom:1px ;
-    font-family: 'Ubuntu';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -151,7 +146,7 @@ body {
 }
 .name{
     color:#1E1E1E;
-    font-family: 'Ubuntu';
+    font-family: 'Poppins';
     font-weight: 300;
     font-size: 14px;
     line-height: 24px;
@@ -165,7 +160,7 @@ body {
 
 .title{
     color: #263238;
-    font-family: 'Exo 2';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -178,7 +173,7 @@ body {
 }
 .article{
     color: #263238;
-    font-family: 'Ubuntu';
+    font-family: 'Poppins';
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -199,7 +194,7 @@ body {
     padding: 2px;
     line-height: 24px;
     font-size: 12px;
-    font-family: 'ubuntu';
+    font-family: 'Poppins';
     width: 100px;
     font-weight: 300;
     text-decoration: none;
@@ -207,7 +202,7 @@ body {
     margin: auto 0;
 }
 .time{
-    font-family: Ubuntu;
+    font-family: 'Poppins';
     font-size: 14px;
     font-weight: 300;
     line-height: 24px;
@@ -216,7 +211,7 @@ body {
 }
 
 .see-more{
-font-family: Ubuntu;
+font-family: 'Poppins';
 font-size: 16px;
 color:#670B78;
 background: #fff;
@@ -265,28 +260,29 @@ margin: auto;
 ------------------------------------------------------------------*/
 
 /*COMMUNITY CARE */
+.comm-n-value {
+   background-color: #F7F7F7;
+}
+
 
 .comm-care {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 342px;
-   margin-top:5%;
-   margin-bottom: 0%;
+   width: 100%;
+   display: grid;
+   place-items: center;
+
+   margin-top: 5%;
+   margin-bottom: 5%;
 }
 
 .comm-care-main {
-    width: 100%;
-    height: 342px;
-    color: #670B78;
-    background-color: #F7F7F7;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 90%;
+   color: #670B78;
 
-    display: flex;
-    justify-content: space-between;
-
-    font-size: 2rem;
-    padding: .5rem;
+   font-size: 2rem;
+   padding: .5rem;
 }
 
 .comm-care-main > div {
@@ -301,7 +297,7 @@ margin: auto;
 
 .comm-care-section-1 > h3 {
    font-size: 38px;
-   font-family: 'Exo 2', sans-serif;
+   font-family: 'Poppins', sans-serif;
    font-style: normal;
    font-weight: 500;
    font-size: 38px;
@@ -311,7 +307,7 @@ margin: auto;
 .comm-care-section-2 {
     padding: 1.5rem;
     width: 40%;
-    font-family: 'Ubuntu';
+    font-family: 'Poppins';
 }
 
 .comm-care-section-2-1 {
@@ -352,6 +348,10 @@ margin: auto;
 /* Style for screens smaller than 480px */
 @media only screen and (max-width: 480px) {
    /* CSS styles go here */
+
+   .comm-care-section-1 > h3 {
+      font-size: 10px;
+   }
  }
  
  /* Style for screens between 480px and 768px */
@@ -389,17 +389,13 @@ margin: auto;
 
 /* MAKE VALUE CARD */
 .make-value-card {
-   height: 350px;
    width: 100%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background-color: #F7F7F7;
-   margin-bottom: 15%;
+   margin-bottom: 10%;
+   display: grid;
+   place-items: center;
 }
 
 .make-value-content {
-   height: 100%;
    background-color: #670B78;
    width: 90%;
    color: #fff;
@@ -410,34 +406,31 @@ margin: auto;
    border-radius: 24px;
 
    position: relative;
-   /* margin-bottom: 10px; */
+   padding: 6px 10px;
+   margin-bottom: 5%;
 }
 
 .make-value-content p {
-   font-family: 'Exo 2';
+   font-family: 'Poppins';
    font-size: 30px;
    font-weight: 700;
-   line-height: 20px;
    letter-spacing: 0em;
    text-align: center;
-
 }
 
 .make-value-btn {
-   height: 48px;
-   width: 255px;
    border: none;
    border-radius: 100px;
    padding: 12px 40px 12px 40px;
 
-   font-family: 'Ubuntu';
+   font-family: 'Poppins';
    font-size: 16px;
    font-weight: 400;
-   line-height: 24px;
    letter-spacing: 0em;
    text-align: left;
 
    color: #670B78;
+   margin-bottom: 5%;
 }
 
 .vector-1 {
@@ -467,7 +460,6 @@ margin: auto;
    left: 901.181396484375px;
    top: 281.73388671875px;
    border-radius: 0px;
-   /* background: #96F550CC; */
    position: absolute;
    left: 67.86%;
    right: 0.98%;
@@ -492,11 +484,12 @@ margin: auto;
 /* Style for screens smaller than 480px */
 @media only screen and (max-width: 480px) {
    .make-value-content p {
-      font-size: 10px;
+      font-size: 5px;
    }
 
    .make-value-btn {
-      font-size: 8px;
+      font-size: 5px;
+      padding: 3px 10px 3px 10px;
    }
  }
  
@@ -657,7 +650,7 @@ margin: auto;
    }
    .footer .section .right_sec .articles ul li  a{
       text-decoration: none;
-      font-family: 'Ubuntu';
+      font-family: 'Poppins';
       font-style: normal;
       font-weight: 400;
       font-size: 1.25vw;
@@ -682,7 +675,7 @@ margin: auto;
       margin: 0;
       border-top: 0.069vw solid #670B78;
       padding-top: 1.66vw;
-      padding-bottom: 2.77vw;
+      padding-bottom: 2.27vw;
    }
    .footer .section .copyright p{
       padding: 0;
@@ -769,7 +762,7 @@ margin: auto;
          object-fit: cover;
    }
    .footer .section .left_sec  p {
-      font-family: 'Ubuntu';
+      font-family: 'Poppins';
       font-style: normal;
       font-weight: 400;
       font-size: 4.8vw;
@@ -835,7 +828,7 @@ margin: auto;
       text-decoration: none;
       cursor: pointer;
       transition: opacity 0.5s ease-in-out;
-      font-family: 'Ubuntu';
+      font-family: 'Poppins';
       font-style: normal;
       font-weight: 400;
       font-size: 4.8vw;
@@ -854,7 +847,7 @@ margin: auto;
       padding-bottom: 10.5vw;
    }
    .footer .section .copyright p{
-      font-family: 'Ubuntu';
+      font-family: 'Poppins';
       font-style: normal;
       font-weight: 400;
       font-size: 4.8vw;
