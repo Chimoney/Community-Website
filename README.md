@@ -34,11 +34,27 @@ Please work on problems marked "first-time contributors" if you are a first-time
 
 
 ## Start Contributing
-1. Pick an [Issue](https://github.com/Chimoney/Community-Website/issues) and request for it to be assigned to you.
+
+### AS A DEVELOPER :
+1. Pick an [Issue](https://github.com/Chimoney/Community-Website/issues) and request for it to be assigned to you by tagging @Khadeeejah and @phyleria 
 2. Fork the repo from [Chimoney-Community-Website](https://github.com/Chimoney/Community-Website)
 3. Clone the forked repo with by doing `git clone https://github.com/your_username/Community-Website.git` where `your_username` is your github username.
 4. Commit your Changes
-5. Make a Pull Request with detailed info on your change with screenshots if possible and please tag any associated parties, @Khadeeejah @elegant1T @phyleria for a review
+5. Make a Pull Request with detailed info on your change with screenshots if possible and please tag any associated parties, @Khadeeejah @phyleria @elegant1T for a review
+
+### AS A TECHNICAL WRITER :
+1. Go through the [contributor's guideline](https://hashnode.com/preview/642f7858fefb2e000fc2596a) for submitting an article.
+2. Pick an [Issue](https://github.com/Chimoney/Community-Website/issues) with a label `content` and request for it to be assigned to you by tagging @mzoyinda and @phyleria.
+3. submit the link to your article and ask for a review tagging @mzoyinda and @phyleria.
+
+### AS A VIDEO CONTENT CREATOR :
+1. Go through the [contributor's guideline](https://hashnode.com/preview/642f7cb61a7241000fa89404) for submitting a video content.
+2. Pick an [Issue](https://github.com/Chimoney/Community-Website/issues) with a label `content` and request for it to be assigned to you by tagging @mzoyinda and @phyleria.
+3. submit the link to your video and ask for a review tagging @mzoyinda and @phyleria.
+
+### BONUS: If you would be working with Chimoney's API - ChiConnect 
+[Here is an article](https://hashnode.com/preview/640f3dcb2fb178000f146d72) to quickly set you on track.
+
 
 
 ### Happy opensourcing :smile: !!
