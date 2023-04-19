@@ -1,12 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap");
+
 html,
 body {
-   padding: 0;
-   margin: 0;
-   width: 100%;
-   box-sizing: border-box;
-   font-family: "Poppins"
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: "Poppins";
 }
-
 
 /* Navbar CSS Start*/
 
@@ -18,10 +19,10 @@ body {
 }
 
 .navbar nav {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
 .nav-link ul {
@@ -130,6 +131,58 @@ body {
    padding-right: 5vw;
 }
 /* End of Hero section*/
+
+
+/*As part of the community section --------------------------------------------
+----------------------------------------------------------------------------*/
+.community-container {
+  background-color: #670b78;
+  padding: 90px;
+}
+.comm-part-h2 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  color: #fff;
+}
+.comm-part-p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+}
+.comm-part-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+}
+
+.comm-part-flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.comm-part-flex > img {
+  height: 28px;
+}
+
+@media only screen and (max-width: 600px) {
+  .community-container {
+    padding: 40px 22px;
+  }
+
+  .comm-part-h2 {
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .comm-part-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/*As part of the community section Ends */
+
 
 
 
@@ -314,28 +367,27 @@ body {
 
 /*COMMUNITY CARE */
 .comm-n-value {
-   background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 
-
 .comm-care {
-   width: 100%;
-   display: grid;
-   place-items: center;
+  width: 100%;
+  display: grid;
+  place-items: center;
 
-   margin-top: 5%;
-   margin-bottom: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .comm-care-main {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   width: 90%;
-   color: #670B78;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  color: #670b78;
 
-   font-size: 2rem;
-   padding: .5rem;
+  font-size: 2rem;
+  padding: 0.5rem;
 }
 
 .comm-care-main>div {
@@ -364,34 +416,34 @@ body {
 }
 
 .comm-care-section-2-1 {
-   margin-bottom: 20px;
-   font-style: normal;
-   font-weight: 500;
-   font-size: 20px;
-   line-height: 28px;
-   flex: none;
-   order: 1;
-   flex-grow: 0;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .comm-care-section-2-2 {
-   display: flex;
-   flex-direction: row;
-   align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
 .comm-care-btn {
-   background-color: #670B78;
-   color: #fff;
+  background-color: #670b78;
+  color: #fff;
 
-   border: none;
-   border-radius: 100px;
-   margin-top: 20px;
-   padding: 12px 40px;
-   gap: 10px;
-   flex: none;
-   order: 0;
-   flex-grow: 0;
+  border: none;
+  border-radius: 100px;
+  margin-top: 20px;
+  padding: 12px 40px;
+  gap: 10px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .comm-care-btn:hover {
@@ -400,7 +452,7 @@ body {
 
 /* Style for screens smaller than 480px */
 @media only screen and (max-width: 480px) {
-   /* CSS styles go here */
+  /* CSS styles go here */
 
 
    .comm-care-section-1>h3 {
@@ -451,48 +503,48 @@ body {
 
 /* MAKE VALUE CARD */
 .make-value-card {
-   width: 100%;
-   margin-bottom: 10%;
-   display: grid;
-   place-items: center;
+  width: 100%;
+  margin-bottom: 10%;
+  display: grid;
+  place-items: center;
 }
 
 .make-value-content {
-   background-color: #670B78;
-   width: 90%;
-   color: #fff;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   border-radius: 24px;
+  background-color: #670b78;
+  width: 90%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
 
-   position: relative;
-   padding: 6px 10px;
-   margin-bottom: 5%;
+  position: relative;
+  padding: 6px 10px;
+  margin-bottom: 5%;
 }
 
 .make-value-content p {
-   font-family: 'Poppins';
-   font-size: 30px;
-   font-weight: 700;
-   letter-spacing: 0em;
-   text-align: center;
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: center;
 }
 
 .make-value-btn {
-   border: none;
-   border-radius: 100px;
-   padding: 12px 40px 12px 40px;
+  border: none;
+  border-radius: 100px;
+  padding: 12px 40px 12px 40px;
 
-   font-family: 'Poppins';
-   font-size: 16px;
-   font-weight: 400;
-   letter-spacing: 0em;
-   text-align: left;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
 
-   color: #670B78;
-   margin-bottom: 5%;
+  color: #670b78;
+  margin-bottom: 5%;
 }
 
 .vector-1 {
@@ -539,9 +591,9 @@ body {
 
 /* Style for screens smaller than 480px */
 @media only screen and (max-width: 480px) {
-   .make-value-content p {
-      font-size: 5px;
-   }
+  .make-value-content p {
+    font-size: 5px;
+  }
 
    .make-value-btn {
       font-size: 5px;
@@ -565,19 +617,19 @@ body {
       font-size: 15px;
    }
 
-   .make-value-btn {
-      font-size: 10px;
-   }
+  .make-value-btn {
+    font-size: 10px;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
-   .make-value-content p {
-      font-size: 20px;
-   }
+  .make-value-content p {
+    font-size: 20px;
+  }
 
-   .make-value-btn {
-      font-size: 12px;
-   }
+  .make-value-btn {
+    font-size: 12px;
+  }
 }
 
 /* END OF MAKE VALUE CARD */
@@ -785,16 +837,13 @@ body {
       position: relative;
    }
 
-   .footer .img-div {
-      width: 100%;
-      position: absolute;
-      z-index: -1;
-      overflow: hidden;
-      top: -15.8vw;
-
-
-
-   }
+  .footer .img-div {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+    top: -15.8vw;
+  }
 
    .footer .img-div img {
       width: 100%;
