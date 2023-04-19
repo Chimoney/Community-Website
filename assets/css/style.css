@@ -18,20 +18,20 @@ body {
 }
 
 .navbar nav {
-   margin-right: 5%;
+/*    margin-right: 5%; */
    display: flex;
    justify-content: space-between;
    align-items: center;
    list-style: none;
 }
 
-#logo{
+/* #logo{
    background-color: #670B78;
    border-radius: 19px;
    box-sizing: border-box;
    height: 30px;
 }
-
+ */
 .navbar-link ul {
 
    display: flex;
@@ -39,6 +39,7 @@ body {
 }
 
 .nav-link ul li a {
+   color: #333;
    text-decoration: none;
    padding-left: 1vw;
    padding-right: 1vw;
@@ -48,11 +49,16 @@ body {
    color: #670B78;
 }
 
+.nav-item{
+   margin-right: 5%;
+}
+
 #sign-in {
    color: #333;
    border: none;
    background-color: white;
    font-size: medium;
+   font-family: "Poppins";
 }
 
 #sign-in:hover {
@@ -64,7 +70,6 @@ body {
    border: none;
    background-color: #670B78;
    padding: 1vw;
-
    font-size: medium;
    padding-left: 2vw;
    padding-right: 2vw;
@@ -107,6 +112,7 @@ body {
    font-style: normal;
    font-weight: bolder;
    align-items: center;
+    margin-bottom: 7%;
 
 }
 
@@ -118,6 +124,8 @@ body {
 
 .header-image {
    width: 45%;
+    display: flex;
+   margin-top: 4%;
 }
 
 .heading button{
