@@ -17,12 +17,14 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0" />
-  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <link rel="stylesheet" href="./assets/css/style.css" />
   <title>Chimoney Community Website</title>
 
   <!-- Favicons -->
   <link href="assets/images/Chimoney.png" rel="icon" />
+  <!-- Poppins Google font link-->
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
 </head>
 
 <body>
@@ -30,12 +32,10 @@
   <div class="navbar">
     <nav>
       <div class="navbar-logo">
-        <div id="logo">
-          <img src="assets/images/chimoney_whiteBg_logo1.svg" alt="Chimoney">
-        </div>
+        <img src="assets/images/navlogo.svg" alt="Chimoney">
       </div>
+      <div class="nav-link">
 
-      <div class="navbar-link">
         <ul>
           <li><a href="#">Product</a></li>
           <li><a href="#">Blog</a></li>
@@ -43,48 +43,29 @@
           <li><a href="#">About</a></li>
         </ul>
       </div>
-      <div class="navbar-item">
-        <button class="sign-in">Sign in</button>
-        <button class="contact-sales">Contact sales</button>
+      <div class="nav-item">
+        <button id="sign-in">Sign in</button>
+        <button id="contact-sales">Contact sales</button>
       </div>
     </nav>
   </div>
   <!-- End of Navbar -->
 
   <!-- Hero section -->
-
-
-
-  <!--As part of the community section-->
-
-  <div class="community-container">
-    <h2 class="comm-part-h2">As part of the Community, you’ll:</h2>
-    <div class="comm-part-grid">
-      <div class="comm-part-flex"><img src="assets/images/whitemark.svg" alt="">
-        <p class="comm-part-p">Expand your network</p>
-      </div>
-      <div class="comm-part-flex"><img src="assets/images/whitemark.svg" alt="">
-        <p class="comm-part-p">Build your portfolio</p>
-      </div>
-      <div class="comm-part-flex"><img src="assets/images/whitemark.svg" alt="">
-        <p class="comm-part-p">Build meaningful relationships</p>
-      </div>
-      <div class="comm-part-flex"><img src="assets/images/whitemark.svg" alt="">
-        <p class="comm-part-p">Get early announcements</p>
-      </div>
-      <div class="comm-part-flex"><img src="assets/images/whitemark.svg" alt="">
-        <p class="comm-part-p">Get meaningful feedback</p>
-      </div>
-      <div class="comm-part-flex"><img src="assets/images/whitemark.svg" alt="">
-        <p class="comm-part-p">Opportunities to test products</p>
-      </div>
+  <div class="hero-section">
+    <div class="heading">
+      <h1>Find your place in the</h1>
+      <h1>Chimoney Community</h1>
+      <h3>Whether you're a beginner, expert, developer, or</h3>
+      <h3>designer, everyone is welcome to join our</h3>
+      <h3>international network of users.</h3>
+      <button id="contact-sales">JOIN OUR COMMUNITY</button>
+    </div>
+    <div class="header-image">
+      <img src="assets/images/Illustrations.svg" alt="Image">
     </div>
   </div>
-
-
-
-
-  <!--End as part of the community section-->
+  <!--End of Hero section-->
 
   <!--featured post-->
   <div class="feature-container">
@@ -100,46 +81,45 @@
     </div>
   </div>
 
-  <div class="comm-n-value">
-    <div class="comm-care">
-      <div class="comm-care-main">
-        <div class="comm-care-section-1">
-          <h3>Community Care</h3>
+  <div class="comm-care">
+    <div class="comm-care-main">
+      <div class="comm-care-section-1">
+        <h3>Community Care</h3>
+      </div>
+      <div class="comm-care-section-2">
+        <div class="comm-care-section-2-1">
+          <span class="comm-care-description">
+            We are committed to working together to ensure the safety of our comunity. All community members, leaders,
+            attendees, speaker, sponsors, volunteers etc. must abide by the code of conduct
+          </span>
         </div>
-        <div class="comm-care-section-2">
-          <div class="comm-care-section-2-1">
-            <span class="comm-care-description">
-              We are committed to working together to ensure the safety of our comunity. All community members, leaders,
-              attendees, speaker, sponsors, volunteers etc. must abide by the code of conduct
-            </span>
-          </div>
-          <div class="comm-care-section-2-2">
-            <a href="https://docs.google.com/document/d/1ePyYNcM-uo387XwTtTvrxhA1FOVzL6ykVn38cZy3fZY/edit?usp=sharing">
-              <button class="comm-care-btn">
-                Read Code of Conduct
-              </button>
-            </a>
-          </div>
+        <div class="comm-care-section-2-2">
+          <a href="https://docs.google.com/document/d/1ePyYNcM-uo387XwTtTvrxhA1FOVzL6ykVn38cZy3fZY/edit?usp=sharing">
+            <button class="comm-care-btn">
+              Read Code of Conduct
+            </button>
+          </a>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="make-value-card">
-      <div class="make-value-content">
-        <p>
-          Better build and hyperscale your payment interactions.
-        </p>
-        <p>
-          Deliver a delightful experience to your user.
-        </p>
-        <div class="vector-1"></div>
-        <div class="vector-2"></div>
-        <a href="https://chimoney.io/book-a-demo">
-          <button class="make-value-btn">
-            Make Value Move Today
-          </button>
-        </a>
-      </div>
+  <div class="make-value-card">
+    <div class="make-value-content">
+      <p>
+        Better build and hyperscale your payment interactions.
+      </p>
+      <p>
+        Deliver a delightful experience to your user.
+      </p>
+      <div class="vector-1"></div>
+      <div class="vector-2"></div>
+      <a href="https://chimoney.io/book-a-demo">
+        <button class="make-value-btn">
+          Make Value Move Today
+        </button>
+      </a>
+
     </div>
   </div>
   <!-- End of hero section -->
