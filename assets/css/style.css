@@ -18,22 +18,13 @@ body {
 }
 
 .navbar nav {
-/*    margin-right: 5%; */
    display: flex;
    justify-content: space-between;
    align-items: center;
    list-style: none;
 }
 
-/* #logo{
-   background-color: #670B78;
-   border-radius: 19px;
-   box-sizing: border-box;
-   height: 30px;
-}
- */
-.navbar-link ul {
-
+.nav-link ul {
    display: flex;
    list-style: none;
 }
@@ -48,7 +39,6 @@ body {
 .nav-link ul li a:hover {
    color: #670B78;
 }
-
 .nav-item{
    margin-right: 5%;
 }
@@ -74,11 +64,11 @@ body {
    padding-left: 2vw;
    padding-right: 2vw;
    border-radius: 100vw;
-   font-weight: bold;
    padding-left: 2vw;
    padding-right: 2vw;
+   font-weight: bold;
+   font-family: "Poppins";
 }
-
 
 #contact-sales:hover{
    color: #333;
@@ -89,6 +79,8 @@ body {
 }
 
 
+
+
 /* End Navbar CSS  */
 
 /* CSS for Hero section */
@@ -96,8 +88,8 @@ body {
    display: flex;
    color: rgba(38, 50, 56, 1);
    height: 60vh;
-   margin-top: 2vh;
-   margin-bottom: 2vh;
+   margin-top: 4%;
+   margin-bottom: 12%;
    margin-left: 7vw;
 }
 
@@ -112,7 +104,7 @@ body {
    font-style: normal;
    font-weight: bolder;
    align-items: center;
-    margin-bottom: 7%;
+   margin-bottom: 7%;
 
 }
 
@@ -124,7 +116,7 @@ body {
 
 .header-image {
    width: 45%;
-    display: flex;
+   display: flex;
    margin-top: 4%;
 }
 
@@ -137,7 +129,6 @@ body {
    align-items: center;
    padding-right: 5vw;
 }
-
 /* End of Hero section*/
 
 
