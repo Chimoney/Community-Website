@@ -43,17 +43,17 @@ Please work on problems marked "first-time contributors" if you are a first-time
 5. Make a Pull Request with detailed info on your change with screenshots if possible and please tag any associated parties, @Khadeeejah @phyleria @elegant1T for a review
 
 ### AS A TECHNICAL WRITER :
-1. Go through the [contributor's guideline](https://hashnode.com/preview/642f7858fefb2e000fc2596a) for submitting an article.
+1. Go through the [contributor's guideline](https://community-chimoney.hashnode.dev/contributing-articles-to-the-chimoney-community) for submitting an article.
 2. Pick an [Issue](https://github.com/Chimoney/Community-Website/issues) with a label `content` and request for it to be assigned to you by tagging @mzoyinda and @phyleria.
 3. submit the link to your article and ask for a review tagging @mzoyinda and @phyleria.
 
-### AS A VIDEO CONTENT CREATOR :
-1. Go through the [contributor's guideline](https://hashnode.com/preview/642f7cb61a7241000fa89404) for submitting a video content.
+### AS A VIDEO CONTENT CREATOR (to be launched soon..)
+1. Go through the contributor's guideline for submitting a video content.
 2. Pick an [Issue](https://github.com/Chimoney/Community-Website/issues) with a label `content` and request for it to be assigned to you by tagging @mzoyinda and @phyleria.
 3. submit the link to your video and ask for a review tagging @mzoyinda and @phyleria.
 
 ### BONUS: If you would be working with Chimoney's API - ChiConnect 
-[Here is an article](https://hashnode.com/preview/640f3dcb2fb178000f146d72) to quickly set you on track.
+[Here is an article](https://community-chimoney.hashnode.dev/getting-started-with-chimoneys-api-chiconnect) to quickly set you on track.
 
 
 
