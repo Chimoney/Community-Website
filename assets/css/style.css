@@ -547,6 +547,10 @@ body {
   margin-bottom: 5%;
 }
 
+.make-value-btn:hover {
+   cursor: pointer;
+}
+
 .vector-1 {
    height: 253.5603790283203px;
    width: 277.70220947265625px;
