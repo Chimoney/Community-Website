@@ -654,8 +654,9 @@ body {
       position: absolute;
       z-index: -1;
       overflow: hidden;
-      top: -2.08vw;
-
+      /* top: -2.08vw; */
+      top: 0;
+      bottom: 0;
    }
 
    .footer .img-div img {
