@@ -2,11 +2,12 @@
 
 html,
 body {
-  padding: 0;
+  padding: 0px;
   margin: 0;
   width: 100%;
   box-sizing: border-box;
   font-family: "Poppins";
+  overflow-x: hidden;
 }
 
 /* Navbar CSS Start*/
@@ -644,6 +645,8 @@ body {
    .footer {
       width: 100%;
       position: relative;
+      
+      
    }
 
    .footer .img-div {
@@ -839,6 +842,7 @@ body {
    .footer {
       width: 100%;
       position: relative;
+      
    }
 
   .footer .img-div {
@@ -1012,7 +1016,9 @@ body {
       text-align: center;
       color: #670B78;
 
+      
    }
+   
 }
 
 /* end of footer css */
