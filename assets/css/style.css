@@ -189,125 +189,27 @@ body {
 
 /*Featured post -------- --------------------------------------
 ----------------------------------------------------------------*/
-.line {
-   margin-bottom: 10px;
-}
-
-.line1 {
-
-   width: 40%;
-   float: left;
-   border: 1px solid;
-   color: #670B78;
-}
-
+.row{
+   display: flex;
+   
+ }
+.column {
+   flex: 25%;
+  margin-left: 1%;
+  margin-right: 1%;
+  border: solid #660D77;  
+ }
+ 
 .feature-heading {
-   margin-bottom: 1px;
+   margin-bottom: 15px;
    font-family: 'Poppins';
    font-style: normal;
-   font-weight: 400;
-   font-size: 16px;
+   font-weight: 900;
+   font-size: 26px;
    line-height: 24px;
-   color: #263238;
+   color: #660D77;
    padding-left: 5px;
-}
-
-.center-container {
-
-   margin: 20px;
-   display: flex;
-   flex-direction: column;
-}
-
-.image {
-   height: 312px;
-   max-width: 320px;
-}
-
-
-.profile {
-   display: flex;
-   align-items: center;
-
-
-}
-
-.profile-picture,
-.name,
-.date {
-   padding: 3px;
-}
-
-.name {
-   color: #1E1E1E;
-   font-family: 'Poppins';
-   font-weight: 300;
-   font-size: 14px;
-   line-height: 24px;
-}
-
-.date {
-   color: #16161699;
-   opacity: 0.6;
-
-}
-
-
-.title {
-   color: #263238;
-   font-family: 'Poppins';
-   font-style: normal;
-   font-weight: 700;
-   font-size: 20px;
-   line-height: 28px;
-   margin: 1px;
-   text-decoration: none;
-}
-
-.title:hover {
-   text-decoration: underline;
-}
-
-.article {
-   color: #263238;
-   font-family: 'Poppins';
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 24px;
-   margin-bottom: 1px;
-}
-
-.article-footer {
-   display: flex;
-   flex-direction: row;
-   align-items: flex-start;
    text-align: center;
-   padding: 2px 12px;
-   gap: 10px;
-   margin-bottom: 20px
-}
-
-.tag {
-   background: #F1E7F2;
-   border-radius: 100px;
-   padding: 2px;
-   line-height: 24px;
-   font-size: 12px;
-   font-family: 'Poppins';
-   width: 100px;
-   font-weight: 300;
-   text-decoration: none;
-   color: #000;
-   margin: auto 0;
-}
-
-.time {
-   font-family: 'Poppins';
-   font-size: 14px;
-   font-weight: 300;
-   line-height: 24px;
-
-
 }
 
 .see-more {
@@ -319,10 +221,10 @@ body {
    border-radius: 100px;
    width: 150px;
    height: 40px;
-   margin: auto;
+   margin-left: 87%;
+   margin-top: 5%;
 
 }
-
 .see-more:hover {
    background-color: #670B78;
    color: white;
