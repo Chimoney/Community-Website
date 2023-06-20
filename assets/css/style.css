@@ -201,6 +201,7 @@ body {
  }
  
 .feature-heading {
+   margin-top: 25px;
    margin-bottom: 15px;
    font-family: 'Poppins';
    font-style: normal;
