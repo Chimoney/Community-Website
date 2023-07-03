@@ -192,7 +192,7 @@ body {
 
 /*Featured post -------- --------------------------------------
 ----------------------------------------------------------------*/
-.row{
+/* .row{
    display: flex;
    
  }
@@ -201,8 +201,23 @@ body {
   margin-left: 1%;
   margin-right: 1%;
   border: solid #660D77;  
+ } */
+
+ .data {
+   gap: 2rem;
+   width: 90%;
+   margin: 0 auto !important;
  }
- 
+ .blog-post {
+   gap: 16px;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .blog-post .image {
+   width: 100%;
+ }
+
 .feature-heading {
    margin-top: 35px;
    margin-bottom: 25px;
