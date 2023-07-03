@@ -8,7 +8,7 @@ let data = {
             name: "Oyin Dawodu",
             date: "- Apr, 18th 2023",
             title: "Contributing articles to Chimoney Community",
-            article: "Getting Started with Chimoney's API"
+            article: "Getting Started with Chimoney's API",
             tag1:  "Chimoney news",
             tag2: "project utility",
             time: "4 mins read"
