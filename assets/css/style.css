@@ -116,6 +116,9 @@ body {
    font-weight: lighter;
 }
 
+.heading a {
+   text-decoration: none;
+}
 .header-image {
    width: 45%;
    display: flex;
