@@ -15,10 +15,10 @@ let data = {
         },
         {
             id: 2,
-            name: "Poppy B",
-            date: "- Feb, 16th 2023",
-            title: "How to spend your crypto in 2022 and beyond",
-            article: "Cryptocurrencies like Bitcoin, XRP, and Eth have become increasingly popular over the past few years. They're also becoming an important part of our...",
+            name: "Oyin Dawodu",
+            date: "- Apr, 18th 2023",
+            title: "Getting Started with Chimoney's API",
+            article: "Chimoney is a payment platform that enables event organizers, businesses, and individuals to securely send money across the world, quickly and efficiently. </br>The platform is designed to make it easy for people to connect and send money to their loved ones, friends, and clients.",
             tag1:  "chimoney news",
             tag2: "project utility",
             time: "3 mins read"
