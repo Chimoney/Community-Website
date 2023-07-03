@@ -214,10 +214,10 @@ body {
    flex-direction: column;
  }
 
- .blog-post .image {
+/*  .blog-post .image {
    width: 100%;
  }
-
+ */
 .feature-heading {
    margin-top: 35px;
    margin-bottom: 25px;
