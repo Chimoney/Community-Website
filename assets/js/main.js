@@ -8,7 +8,7 @@ let data = {
             name: "Oyin Dawodu",
             date: "- Apr, 18th 2023",
             title: "Contributing articles to Chimoney Community",
-            article: "Getting Started with Chimoney's API",
+            article: "Are you passionate about sharing your expertise and making a valuable contribution to an active online community?",
             tag1:  "Chimoney news",
             tag2: "project utility",
             time: "4 mins read"
@@ -18,7 +18,7 @@ let data = {
             name: "Oyin Dawodu",
             date: "- Apr, 18th 2023",
             title: "Getting Started with Chimoney's API",
-            article: "Getting Started with Chimoney's API",
+            article: "Chimoney is a payment platform that enables event organizers, businesses, </br> and individuals to securely send money across the world, quickly and efficiently.",
             tag1:  "chimoney news",
             tag2: "project utility",
             time: "3 mins read"
