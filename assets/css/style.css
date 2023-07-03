@@ -202,7 +202,7 @@ body {
   margin-right: 1%;
   border: solid #660D77;  
  } */
- .title {
+ #title {
    font-weight: 900;
    color: #000;
    text-decoration: none;
