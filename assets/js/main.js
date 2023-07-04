@@ -48,8 +48,6 @@ const Card = (data) => {
       content += `
         <div class="blog-post">
             <img class="image1" src="assets/images/Contributing _png" />
-            <img class="image2" src="assets/images/Getting_Started _png" />
-            <img class="image2" src="assets/images/Reflections _png" />
             <div>
                 <div class="profile">
                     <img class="profile-picture" src="assets/images/Author.png" />
