@@ -18,7 +18,7 @@ let data = {
             name: "Oyin Dawodu",
             date: "- Apr, 18th 2023",
             title: "Getting Started with Chimoney's API",
-            article: "Chimoney is a payment platform that enables event organizers, businesses, </br> and individuals to securely send money across the world, quickly and efficiently.",
+            article: "Do you wish to learn how to get started with Chimoney's API? Then this blog is for you...",
             tag1:  "chimoney news",
             tag2: "project utility",
             time: "3 mins read"
@@ -27,10 +27,10 @@ let data = {
         },
         {
             id: 3,
-            name: "Poppy C",
-            date: "- Feb, 16th 2023",
-            title: "Chimoney Chooses WireFX to Power Payments and Account",
-            article: "Cryptocurrencies like Bitcoin, XRP, and Eth have become increasingly popular over the past few years. They're also becoming an important part of our...",
+            name: "Phylis Atieno",
+            date: "- May, 18th 2023",
+            title: "Chisquad 002 Reflections",
+            article: "Celebrating collaborative successes in our Ambassador Community",
             tag1:  "chimoney news",
             tag2: "project utility",
             time: "3 mins read"
