@@ -47,7 +47,7 @@ const Card = (data) => {
     for (var i = 0; i < data.length; i++) {
       content += `
         <div class="blog-post">
-            <img class="image1" src="assets/images/Contributing _png" />
+            <img class="image1" src="assets/images/image 1.png" />
             <div>
                 <div class="profile">
                     <img class="profile-picture" src="assets/images/Author.png" />
