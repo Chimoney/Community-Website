@@ -70,6 +70,7 @@ body {
    padding-right: 2vw;
    font-weight: bold;
    font-family: "Poppins";
+   cursor: pointer;
 }
 
 #contact-sales:hover{
@@ -127,6 +128,7 @@ body {
 
 .heading button{
    margin: 3vh;
+   cursor: pointer;
 }
 .header-image img {
    height: 55vh;
