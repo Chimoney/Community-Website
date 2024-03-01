@@ -836,6 +836,7 @@ body {
    .footer {
       width: 100%;
       position: relative;
+      height: 100dvh;
 
    }
 
@@ -876,12 +877,12 @@ body {
    }
 
    .footer .section .links .left_sec {
-      display: grid;
-      grid-template-columns: 1fr;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       align-items: center;
-      row-gap: 0.5vw;
-      padding: 0;
-      margin: 0;
+      text-align: center;
 
    }
 
@@ -909,18 +910,15 @@ body {
       font-style: normal;
       font-weight: 400;
       font-size: 4.8vw;
-      line-height: 7.66vw;
       color: #670B78;
-      width: 33.8vw;
    }
 
    .footer .section .left_sec ul {
-      display: grid;
-      grid-template-columns: 8vw 9.3vw 8.8vw;
-      align-items: center;
+      display: flex;
+      justify-content: space-evenly;
       padding: 0;
       margin: 0;
-      width: 32.8vw;
+      width: 100%;
       justify-items: center;
    }
 
@@ -940,17 +938,24 @@ body {
    }
 
    .footer .section .right_sec {
-      display: grid;
-      align-items: center;
-      row-gap: 4.5vw;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
    }
 
    .footer .section .right_sec .articles {
-      display: grid;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       align-items: center;
-      row-gap: 1vw;
-      padding: 0;
-      margin: 0;
+      text-align: center;
+   }
+
+   .footer .section .right_sec .articles:nth-child(3) {
+      width: 100%;
+      text-align: center;
    }
 
    .footer .section .right_sec .articles h3 {
@@ -969,7 +974,6 @@ body {
       row-gap: 4vw;
       padding: 0;
       margin: 0;
-      width: 56vw;
    }
 
    .footer .section .right_sec .articles ul li {
@@ -992,21 +996,20 @@ body {
       opacity: 0.6;
    }
 
-   .footer .section .copyright {
+   .footer .copyright {
       width: 94.73vw;
       margin: 0 auto;
       margin-top: 10.5vw;
       border-top: 0.267vw solid #670B78;
-      padding-top: 4vw;
-      padding-bottom: 10.5vw;
+      padding-block-start: 2rem;
+      margin-block-end: -2rem;
    }
 
-   .footer .section .copyright p {
+   .footer .copyright p {
       font-family: 'Poppins';
       font-style: normal;
       font-weight: 400;
       font-size: 4.8vw;
-      line-height: 7.46vw;
       text-align: center;
       color: #670B78;
 
