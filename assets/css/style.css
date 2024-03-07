@@ -199,14 +199,21 @@ body {
 
 /*Tab Section -------- --------------------------------------
 ----------------------------------------------------------------*/
+.tab_section {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
 .tabs {
    display: flex;
-   justify-content: start;
+   justify-content: center;
    align-items: center;
    padding-inline: 3.5%;
    padding-block-start: 5%;
    background-color: #F7F7F7;
    width: 100%;
+   justify-self: center;
 
    .tab_item {
       padding-block: .75rem;
@@ -232,16 +239,22 @@ body {
 
 .tab_container {
    display: flex;
-   justify-content: start;
+   justify-content: center !important;
+   justify-self: center;
    align-items: center;
    padding-inline: 3.5%;
    padding-block: 1.5%;
-   width: 50%;
    font-weight: 300;
    line-height: 1.75;
    text-align: justify;
    color: #333;
    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.tab{
+   width: 50%;
+   display: flex;
+   align-self: center;
 }
 
 /*Featured post -------- --------------------------------------
