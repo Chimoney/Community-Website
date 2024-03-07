@@ -43,8 +43,8 @@
         </ul>
       </div>
       <div class="nav-item">
-        <a href = "https://dash.chimoney.io/auth/signin"><button id="sign-in">Sign in</button></a>
-        <a href = "https://chimoney.io/book-a-demo"><button id="contact-sales">Contact sales</button></a>
+        <a href="https://dash.chimoney.io/auth/signin"><button id="sign-in">Sign in</button></a>
+        <a href="https://chimoney.io/book-a-demo"><button id="contact-sales">Contact sales</button></a>
       </div>
     </nav>
   </div>
@@ -58,7 +58,8 @@
       <h3>Whether you're a beginner, expert, developer, or</h3>
       <h3>designer, everyone is welcome to join our</h3>
       <h3>international network of users.</h3>
-      <a href = "https://docs.google.com/forms/u/1/d/e/1FAIpQLSeuFDcnkrddQG1sPoO3eCH2F65Z8o8wrBqTMqHMNOUOC1cY2w/viewform?utm_medium=headbanner&utm_source=web">
+      <a
+        href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSeuFDcnkrddQG1sPoO3eCH2F65Z8o8wrBqTMqHMNOUOC1cY2w/viewform?utm_medium=headbanner&utm_source=web">
         <button id="contact-sales">JOIN OUR COMMUNITY</button>
       </a>
     </div>
@@ -68,48 +69,80 @@
   </div>
   <!--End of Hero section-->
 
-    <!--As part of the community section-->
-    <div class="community-container">
-      <h2 class="comm-part-h2">As part of the Community, you’ll:</h2>
-      <div class="comm-part-grid">
-        <div class="comm-part-flex"><img src="assets/images/whitemark.svg" alt="">
-          <p class="comm-part-p">Expand your network</p>
-        </div>
-        <div class="comm-part-flex"><img src="assets/images/whitemark.svg" alt="">
-          <p class="comm-part-p">Build your portfolio</p>
-        </div>
-        <div class="comm-part-flex"><img src="assets/images/whitemark.svg" alt="">
-          <p class="comm-part-p">Build meaningful relationships</p>
-        </div>
-        <div class="comm-part-flex"><img src="assets/images/whitemark.svg" alt="">
-          <p class="comm-part-p">Get early announcements</p>
-        </div>
-        <div class="comm-part-flex"><img src="assets/images/whitemark.svg" alt="">
-          <p class="comm-part-p">Get meaningful feedback</p>
-        </div>
-        <div class="comm-part-flex"><img src="assets/images/whitemark.svg" alt="">
-          <p class="comm-part-p">Opportunities to test products</p>
-        </div>
+  <!--As part of the community section-->
+  <div class="community-container">
+    <h2 class="comm-part-h2">As part of the Community, you’ll:</h2>
+    <div class="comm-part-grid">
+      <div class="comm-part-flex"><img src="assets/images/whitemark.svg" alt="">
+        <p class="comm-part-p">Expand your network</p>
+      </div>
+      <div class="comm-part-flex"><img src="assets/images/whitemark.svg" alt="">
+        <p class="comm-part-p">Build your portfolio</p>
+      </div>
+      <div class="comm-part-flex"><img src="assets/images/whitemark.svg" alt="">
+        <p class="comm-part-p">Build meaningful relationships</p>
+      </div>
+      <div class="comm-part-flex"><img src="assets/images/whitemark.svg" alt="">
+        <p class="comm-part-p">Get early announcements</p>
+      </div>
+      <div class="comm-part-flex"><img src="assets/images/whitemark.svg" alt="">
+        <p class="comm-part-p">Get meaningful feedback</p>
+      </div>
+      <div class="comm-part-flex"><img src="assets/images/whitemark.svg" alt="">
+        <p class="comm-part-p">Opportunities to test products</p>
       </div>
     </div>
-    <!--End as part of the community section-->
+  </div>
+  <!--End as part of the community section-->
+
+  <!-- tab section -->
+  <div class="tabs">
+    <button class="tab_item tab_btn active" onclick="openTabAndActivate(event, 'Blogs')">Blogs</button>
+    <button class="tab_item tab_btn" onclick="openTabAndActivate(event, 'Events')">Events</button>
+    <button class="tab_item tab_btn" onclick="openTabAndActivate(event, 'Videos')">Videos</button>
+  </div>
+
+  <div id="Blogs" class="tab_container tab">
+    <p>Our blog posts are curated to help you get familiar with Chimoney’s product and services. Dive into Chimoney's
+      blog section to discover a wealth of knowledge designed to empower your financial journey. Explore insightful
+      articles, tutorials, and guides covering a diverse range of topics, from investment strategies to personal finance
+      management.</p>
+  </div>
+
+  <div id="Events" class="tab_container tab" style="display:none">
+    <p>
+      Stay updated with Chimoney's latest events and conferences. Join us to learn about upcoming features,
+      partnerships, and industry insights. Get involved in workshops and webinars conducted by experts to enhance your
+      knowledge and skills in financial technology.
+    </p>
+  </div>
+
+  <div id="Videos" class="tab_container tab" style="display:none">
+    <p>
+      Explore Chimoney's video library to discover tutorials, product demonstrations, and interviews with industry
+      leaders. Dive into our collection of informative videos covering various topics such as financial literacy,
+      investment strategies, and updates on Chimoney's latest developments. Whether you're a beginner or an expert, our
+      videos offer valuable insights to help you navigate the world of finance.
+    </p>
+  </div>
+  <!-- End of tab section -->
 
   <!--featured post-->
-<div class="feature-container">
+  <div class="feature-container">
     <div class="center-container">
-        <p class="feature-heading">Featured posts</p>
-        <div class="line">
-          <hr class="line1">
-          <hr class="line2">
-        </div>   
-        <div class="data" id="data"></div>
-        
-        <button class="see-more">see more</button>
+      <p class="feature-heading">Featured posts</p>
+      <div class="line">
+        <hr class="line1">
+        <hr class="line2">
+      </div>
+      <div class="data" id="data"></div>
+
+      <button class="see-more">see more</button>
     </div>
-</div>
-<!--   End of Featured post -->
-  
-<!--   Community Care -->
+  </div>
+  <!--   End of Featured post -->
+
+  <!--   Community Care -->
   <div class="comm-care">
     <div class="comm-care-main">
       <div class="comm-care-section-1">
@@ -234,7 +267,9 @@
   </footer>
   <!-- End of Footer -->
 
+  <!-- scripts -->
   <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
