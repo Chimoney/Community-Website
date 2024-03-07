@@ -258,7 +258,11 @@ body {
 }
 
 
-@media
+@media screen and (max-width: 600px) {
+   .tab_container {
+      padding-inline: 1%;
+   }
+}
 
 /*Featured post -------- --------------------------------------
 ----------------------------------------------------------------*/
