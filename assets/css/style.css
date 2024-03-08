@@ -268,7 +268,7 @@ body {
    .heading p {
       font-size: 1.125rem !important;
       font-weight: 400;
-      
+
    }
 
    .header-image {
@@ -283,64 +283,65 @@ body {
    }
 }
 
-/* End of Hero section*/
+/* End of Hero section */
 
 
-/*As part of the community section --------------------------------------------
-----------------------------------------------------------------------------*/
+/* ================================
+         community section          
+==================================*/
 .community-container {
    background-color: #670b78;
-   padding: 90px;
+   padding-inline: 5rem;
+   padding-block: 5rem;
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+   width: 100vw;
 }
 
 .comm-part-h2 {
-   font-family: "Exo 2";
    font-style: normal;
    font-weight: 500;
-   font-size: 38px;
-   color: #fff;
-}
-
-.comm-part-p {
-   font-family: "Poppins";
-   font-style: normal;
-   font-weight: 400;
-   font-size: 18px;
+   font-size: 2.5rem;
    color: #fff;
 }
 
 .comm-part-grid {
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   column-gap: 5px;
-}
+   grid-template-columns: repeat(3, 1fr);
+   gap: 2rem;
 
-.comm-part-flex {
-   display: flex;
-   align-items: center;
-   gap: 10px;
-}
+   .comm-part-flex {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+   }
 
-.comm-part-flex>img {
-   height: 28px;
+   .comm-part-p {
+      font-weight: 400;
+      font-size: 1.125rem;
+      color: #fff;
+   }
 }
 
 @media only screen and (max-width: 600px) {
    .community-container {
-      padding: 40px 22px;
+      padding-inline: 1rem;
+      padding-block: 3rem;
    }
 
    .comm-part-h2 {
       font-weight: 600;
-      font-size: 22px;
+      font-size: 1.25rem;
    }
 
    .comm-part-grid {
       grid-template-columns: 1fr;
+      gap: 1rem !important;
    }
 }
 
-/*As part of the community section Ends */
+/* Community section ends */
 
 
 
