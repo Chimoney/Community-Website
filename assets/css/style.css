@@ -228,7 +228,7 @@ body {
    align-items: center;
 }
 
-=.header-image img {
+.header-image img {
    object-fit: cover;
    object-position: center;
    width: 100%;
