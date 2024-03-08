@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap");
 
-*{
+* {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
@@ -188,7 +188,7 @@ body {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
    color: rgba(38, 50, 56, 1);
-   height: calc(100dvh - 50px);  /* Give space to fixed header */
+   height: calc(100dvh - 50px);
    width: 100vw;
    align-items: center;
    padding-inline: 3rem;
@@ -217,8 +217,8 @@ body {
 }
 
 .hero-button {
-  font-size: 1.125rem;
-  font-weight: 400;
+   font-size: 1.125rem;
+   font-weight: 400;
 }
 
 .header-image {
@@ -228,8 +228,7 @@ body {
    align-items: center;
 }
 
-=
-.header-image img {
+=.header-image img {
    object-fit: cover;
    object-position: center;
    width: 100%;
@@ -237,43 +236,49 @@ body {
 
 @media screen and (max-width: 767px) {
 
-
    .hero-section {
       width: 100dvw !important;
-      margin: 0;
+      height: max-content;
+      padding-block: 3rem;
       padding-inline: 1rem !important;
-      margin-block: 0 !important;
-      height: max-content !important;
-      position: relative;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
+
    }
 
    .heading {
       width: 100dvw !important;
-      /* padding-block-start: 2rem; */
       text-align: center;
+      padding-inline: 1rem;
+   }
 
-      .heading h1 {
-         font-size: 2rem !important;
-         font-weight: 700;
+   .heading h1 {
+      font-size: 1.9rem !important;
+      font-weight: 700;
+      line-height: normal;
+   }
 
-      }
+   .heading a {
+      text-decoration: none;
+   }
 
-      .heading p {
-         font-size: 1.125rem !important;
-         font-weight: 400;
-      }
-
-      .heading a {
-         text-decoration: none;
-      }
+   .heading p {
+      font-size: 1.125rem !important;
+      font-weight: 400;
+      
    }
 
    .header-image {
       display: none;
+   }
+
+   .hero-button {
+      font-size: 1.125rem;
+      font-weight: 400;
+      width: 75%;
+      padding-block: .75rem !important;
    }
 }
 

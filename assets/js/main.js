@@ -100,3 +100,21 @@ document.addEventListener("DOMContentLoaded", function () {
       navbar.classList.remove('open');
     });
   });
+
+
+  // Function to remove <br> elements on devices with a maximum width of 767px
+  function removeBrOnSmallDevices() {
+    if (window.innerWidth <= 767) {
+      // Select elements containing <br> elements
+      const elementsWithBr = document.querySelectorAll('.heading h1, .heading p');
+
+      // Loop through each element and remove <br> elements
+      elementsWithBr.forEach(element => {
+        element.innerHTML = element.innerHTML.replace(/<br>/g, '');
+      });
+    }
+  }
+
+  // Call the above function when the window is loaded and resized
+  window.addEventListener('load', removeBrOnSmallDevices);
+  window.addEventListener('resize', removeBrOnSmallDevices);
