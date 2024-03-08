@@ -83,3 +83,20 @@ function getCopyRightYear() {
 }
 getCopyRightYear()
  
+
+// navbarr responsiveness
+
+document.addEventListener("DOMContentLoaded", function () {
+    const menuIcon = document.querySelector('.menu_icon');
+    const closeIcon = document.querySelector('.close_icon');
+    const navbar = document.querySelector('.navbar');
+  
+  
+    menuIcon.addEventListener('click', function() {
+      navbar.classList.add('open');
+    });
+  
+    closeIcon.addEventListener('click', function() {
+      navbar.classList.remove('open');
+    });
+  });
