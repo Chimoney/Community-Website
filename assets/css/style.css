@@ -13,14 +13,22 @@ body {
    overflow-x: hidden;
 }
 
-/* Navbar CSS Start*/
+/*=================================
+       Navbar section
+=================================*/
 
 .navbar {
-   background-color: rgb(255, 255, 255);
+   background-color: transparent;
+   backdrop-filter: blur(5px);
    color: #333;
    padding: 10px;
    width: 100vw;
+   position: fixed;
+   width: 100%;
+   padding-inline: 2rem;
+   z-index: 1000;
 }
+
 
 .navbar nav {
    display: flex;
@@ -50,13 +58,16 @@ body {
 }
 
 .nav-item {
-   margin-right: 5%;
+   display: flex;
+   gap: 1rem;
+   align-items: center;
 }
 
 #sign-in {
    color: #333;
    border: none;
-   background-color: white;
+   background-color: transparent;
+  
    font-size: medium;
    font-family: "Poppins";
 }
@@ -69,10 +80,8 @@ body {
    color: rgb(255, 255, 255);
    border: none;
    background-color: #670B78;
-   padding: 1vw;
-   font-size: medium;
-   padding-left: 2vw;
-   padding-right: 2vw;
+   padding-inline: 1.5rem;
+   padding-block: .75rem;
    border-radius: 100vw;
    padding-left: 2vw;
    padding-right: 2vw;
@@ -92,13 +101,20 @@ body {
    display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
+
+   .navbar{
+      width: 100%;
+      padding-inline: 1rem;
+   }
+
+   
 
    .navbar nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding-inline-end: 1.5rem;
+      width: 100%;
    }
 
    .nav-link ul,
@@ -112,20 +128,25 @@ body {
    }
 
    .navbar.open {
+         width: 100%;
+         backdrop-filter: none !important;
+      
       >nav {
          display: flex;
          flex-direction: column;
          width: 100vw;
-         height: 100vh;
+         height: 70vh;
          justify-content: space-between;
+         gap: 0.75rem;
          background: #fff;
          position: absolute;
+         z-index: 1;
          left: 0;
-
 
          .navbar-logo {
             display: flex;
             width: 100%;
+            padding-inline: 1rem;
             justify-content: space-between;
             align-items: center !important;
             background-color: #fff;
@@ -141,11 +162,11 @@ body {
 
          .nav-link ul {
             display: flex;
-            width: 950vw;
+            width: 100vw;
             flex-direction: column;
             align-items: center !important;
             justify-content: space-between;
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             gap: 2rem;
             padding-left: 0;
             margin-left: 0;
@@ -153,13 +174,15 @@ body {
          }
 
          .nav-item {
+            margin: 0;
+            width: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
             padding-bottom: 4rem;
 
             #sign-in {
-               font-size: 1.5rem !important;
+               font-size: 1.2rem !important;
                padding: 1rem;
             }
 
@@ -175,11 +198,21 @@ body {
          display: none;
       }
    }
+
+   .navbar.open::after {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: transparent;
+      backdrop-filter: blur(5px); 
+      z-index: -1 !important; 
+  }
 }
 
-
-
-/* End Navbar CSS  */
+/* ------------- End Navbar CSS ------------- */
 
 /* ======================== 
          Hero section 
@@ -188,7 +221,7 @@ body {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
    color: rgba(38, 50, 56, 1);
-   height: calc(100dvh - 50px);
+   height: 100dvh;
    width: 100vw;
    align-items: center;
    padding-inline: 3rem;
@@ -239,13 +272,13 @@ body {
 
    .hero-section {
       width: 100dvw !important;
-      height: max-content;
+      height: calc(60dvh + 60px) !important;
       padding-block: 3rem;
       padding-inline: 1rem !important;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: flex-start;
+      justify-content: center;
 
    }
 
@@ -678,7 +711,7 @@ body {
       color: #670b78;
       transition: all .3s ease-in-out;
    }
-   
+
    .make-value-btn:hover {
       cursor: pointer;
       transform: scale(1.05);
@@ -692,11 +725,11 @@ body {
    top: 96.439697265625px;
    border-radius: 0px;
    position: absolute;
-   opacity: 0.5; /
+   opacity: 0.5;
    background: radial-gradient(rgba(255, 255, 255, 0.4),
          rgba(255, 255, 255, 0.08) 50%,
-         transparent 50%, 
-         transparent); 
+         transparent 50%,
+         transparent);
 }
 
 .vector-2 {
@@ -709,8 +742,8 @@ body {
    opacity: 0.5;
    background: radial-gradient(rgba(255, 255, 255, 0.4),
          rgba(255, 255, 255, 0.08) 50%,
-         rgba(255, 255, 255, 0.2) 50%, 
-         transparent 50%); 
+         rgba(255, 255, 255, 0.2) 50%,
+         transparent 50%);
 }
 
 @media only screen and (max-width: 767px) {
@@ -743,11 +776,12 @@ body {
    }
 
    .vector-1,
-   .vector-2{
+   .vector-2 {
       display: none;
    }
 
 }
+
 /* ------------- END OF MAKE VALUE CARD ------------- */
 
 
