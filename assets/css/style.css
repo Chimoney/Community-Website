@@ -685,7 +685,6 @@ body {
    }
 }
 
-
 .vector-1 {
    height: 253.5603790283203px;
    width: 277.70220947265625px;
@@ -714,51 +713,42 @@ body {
          transparent 50%); 
 }
 
-
-/* Style for screens smaller than 480px */
-@media only screen and (max-width: 480px) {
-   .make-value-content p {
-      font-size: 5px;
-   }
-
-   .make-value-btn {
-      font-size: 5px;
-      padding: 3px 10px 3px 10px;
-   }
-}
-
-/* Style for screens between 480px and 768px */
-@media only screen and (max-width: 600px) {
-   .make-value-content p {
-      font-size: 12px;
-   }
-
-   .make-value-btn {
-      font-size: 10px;
-   }
-}
-
 @media only screen and (max-width: 767px) {
-   .make-value-content p {
-      font-size: 15px;
+   .make-value-card {
+      padding: 1.5rem;
    }
 
-   .make-value-btn {
-      font-size: 10px;
+   .make-value-content {
+      padding: 2rem;
+      border-radius: .75rem;
+      gap: 1rem;
+
+      p {
+         font-size: 1.25rem;
+         font-weight: 700;
+         letter-spacing: 0em;
+         text-align: center;
+      }
+
+      .make-value-btn {
+         padding: 12px 40px 12px 40px;
+         font-size: 1rem;
+         font-weight: 400;
+         text-align: center;
+      }
+
+      .make-value-btn:hover {
+         transform: none;
+      }
    }
+
+   .vector-1,
+   .vector-2{
+      display: none;
+   }
+
 }
-
-@media only screen and (max-width: 1200px) {
-   .make-value-content p {
-      font-size: 20px;
-   }
-
-   .make-value-btn {
-      font-size: 12px;
-   }
-}
-
-/* END OF MAKE VALUE CARD */
+/* ------------- END OF MAKE VALUE CARD ------------- */
 
 
 @media screen and (min-width: 602px) {
