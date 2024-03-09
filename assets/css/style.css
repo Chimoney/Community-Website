@@ -357,10 +357,11 @@ body {
 
 .feature-heading {
    font-weight: 400;
-   font-size: 1.5rem;
+   font-size: 1.25rem;
    color: #263238;
    width: max-content;
    position: relative;
+   padding-block-end: .5rem;
 }
 
 .feature-heading::before {
@@ -522,17 +523,6 @@ body {
    .data {
       margin: 20px;
       display: flex;
-   }
-
-   .line1 {
-
-      width: 20%;
-
-   }
-
-   .feature-heading,
-   .line {
-      margin-left: 20px;
    }
 }
 
