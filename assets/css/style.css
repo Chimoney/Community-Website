@@ -585,7 +585,7 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-   
+
    .comm-care {
       padding-block: 3rem;
       padding-inline: 1rem;
@@ -632,63 +632,59 @@ body {
          padding-block: .75rem;
       }
 
-      .comm-care-btn:hover{
+      .comm-care-btn:hover {
          transform: none;
       }
    }
 }
 
-/* END OF COMMUNITY CARE */
+/* ---------------- END OF COMMUNITY CARE ---------------- */
 
-/* MAKE VALUE CARD */
+/* ======================================
+               cta section                   
+========================================*/
 .make-value-card {
    width: 100%;
-   margin-bottom: 10%;
-   display: grid;
-   place-items: center;
+   padding: 3rem;
 }
 
 .make-value-content {
    background-color: #670b78;
-   width: 90%;
    color: #fff;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   border-radius: 24px;
+   border-radius: 1.5rem;
+   padding: 5rem;
+   gap: 1rem;
 
    position: relative;
-   padding: 6px 10px;
-   margin-bottom: 5%;
+
+   p {
+      font-size: 1.875rem;
+      font-weight: 700;
+      letter-spacing: 0em;
+      text-align: center;
+   }
+
+   .make-value-btn {
+      border: none;
+      border-radius: 100px;
+      padding: 12px 40px 12px 40px;
+      font-size: 1rem;
+      font-weight: 400;
+      text-align: center;
+      color: #670b78;
+      transition: all .3s ease-in-out;
+   }
+   
+   .make-value-btn:hover {
+      cursor: pointer;
+      transform: scale(1.05);
+   }
 }
 
-.make-value-content p {
-   font-family: "Poppins";
-   font-size: 30px;
-   font-weight: 700;
-   letter-spacing: 0em;
-   text-align: center;
-}
-
-.make-value-btn {
-   border: none;
-   border-radius: 100px;
-   padding: 12px 40px 12px 40px;
-
-   font-family: "Poppins";
-   font-size: 16px;
-   font-weight: 400;
-   letter-spacing: 0em;
-   text-align: left;
-
-   color: #670b78;
-   margin-bottom: 5%;
-}
-
-.make-value-btn:hover {
-   cursor: pointer;
-}
 
 .vector-1 {
    height: 253.5603790283203px;
@@ -697,40 +693,27 @@ body {
    top: 96.439697265625px;
    border-radius: 0px;
    position: absolute;
-   left: 11.07%;
-   right: 68.02%;
-   top: 27.55%;
-   bottom: 0%;
-   opacity: 50%;
+   opacity: 0.5; /
    background: radial-gradient(rgba(255, 255, 255, 0.4),
          rgba(255, 255, 255, 0.08) 50%,
-         transparent,
-         transparent,
-         transparent);
+         transparent 50%, 
+         transparent); 
 }
 
 .vector-2 {
    height: 291.4860534667969px;
    width: 413.8519287109375px;
-   left: 901.181396484375px;
-   top: 281.73388671875px;
+   left: 800px;
+   top: 130px;
    border-radius: 0px;
    position: absolute;
-   left: 67.86%;
-   right: 0.98%;
-   top: 70.5%;
-   bottom: -63.78%;
-   opacity: 50%;
+   opacity: 0.5;
    background: radial-gradient(rgba(255, 255, 255, 0.4),
          rgba(255, 255, 255, 0.08) 50%,
-         transparent,
-         transparent,
-         transparent);
-
-   background: radial-gradient(rgba(255, 255, 255, 0.2) 50%,
-         transparent,
-         transparent);
+         rgba(255, 255, 255, 0.2) 50%, 
+         transparent 50%); 
 }
+
 
 /* Style for screens smaller than 480px */
 @media only screen and (max-width: 480px) {
