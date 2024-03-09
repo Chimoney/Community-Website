@@ -37,6 +37,11 @@ body {
    list-style: none;
 }
 
+.navbar-logo a{
+   text-decoration: none;
+   cursor: pointer;
+}
+
 .navbar-logo .close_icon {
    display: none;
 }
