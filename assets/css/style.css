@@ -373,25 +373,38 @@ body {
    background-color: #670B78; 
 }
 
-
+.blogpost-container {
+   width: 100%;
+   margin-block: .25rem;
+   padding-block: .25rem;
+   border-top: 1px solid #670B78;
+   
+}
 
 .blog-post {
    width: 100%;
-}
-
-
-.center-container {
    display: flex;
-   flex-direction: column;
-   padding-left: 2%;
+   flex-wrap: wrap;
+   gap: 1rem;
+
+   .blog-image{
+      object-fit: cover;
+      object-position: center;
+   }
+
+   >div{
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      justify-content: space-between;
+   }
 }
+
 
 
 .profile {
    display: flex;
    align-items: center;
-
-
 }
 
 .profile-picture,
@@ -411,9 +424,7 @@ body {
 .date {
    color: #16161699;
    opacity: 0.6;
-
 }
-
 
 .title {
    color: #263238;
@@ -439,12 +450,9 @@ body {
 
 .article-footer {
    display: flex;
-   flex-direction: row;
-   align-items: flex-start;
+   justify-content: flex-start;
    text-align: center;
-   padding: 2px 12px;
-   gap: 10px;
-   margin-bottom: 20px
+   gap: .5rem;
 }
 
 .tag {
