@@ -501,29 +501,19 @@ align-self: center;
    color: white;
 }
 
+@media screen and (max-width: 767px) {
 
-
-@media screen and (max-device-width: 320px) {
-   .image {
-      height: 200px;
-      max-width: 220px;
+   .feature-container {
+      padding: 1.5rem;
    }
 
-   .title {
-      font-size: 15px;
-   }
-
-   .article {
-      font-size: 12px;
-
-   }
-
-}
-
-@media screen and (min-device-width: 1200px) {
-   .data {
-      margin: 20px;
-      display: flex;
+   .blog-posts {
+      padding-block-end: 1.5rem;
+   }   
+   
+   .blog-card {
+      width: 100%;
+      padding-block-start: 1rem;
    }
 }
 
