@@ -5,10 +5,10 @@ let data = {
     {
       id: 1,
       name: "Oyin Dawodu",
-      date: "- Apr, 18th 2023",
+      date: "Apr, 18th 2023",
       title: "Contributing articles to Chimoney Community",
       article:
-        "Are you passionate about sharing your expertise and making a valuable contribution to an active online community?",
+        "Are you passionate about sharing your expertise and making a valuable contribution to an active online community? If so, then this blog is for you, as we not only provide a step-by-step guide to get started with Chimoney's API but also offer insights and tips on how to leverage your skills to enhance the online community.",
       tag1: "Chimoney news",
       tag2: "project utility",
       time: "4 mins read",
@@ -16,10 +16,10 @@ let data = {
     {
       id: 2,
       name: "Oyin Dawodu",
-      date: "- Apr, 18th 2023",
+      date: "Apr, 18th 2023",
       title: "Getting Started with Chimoney's API",
       article:
-        "Do you wish to learn how to get started with Chimoney's API? Then this blog is for you...",
+        "Do you wish to learn how to get started with Chimoney's API? Then this blog is for you, as we provide a step-by-step guide to help you integrate Chimoney's API seamlessly into your projects.",
       tag1: "chimoney news",
       tag2: "project utility",
       time: "3 mins read",
@@ -27,10 +27,43 @@ let data = {
     {
       id: 3,
       name: "Phylis Atieno",
-      date: "- May, 18th 2023",
-      title: "Chisquad 002 Reflections",
+      date: "May, 18th 2023",
+      title: "How to spend your crypto in 2022 and beyond",
       article:
-        "Celebrating collaborative successes in our Ambassador Community",
+        "Cryptocurrencies like Bitcoin, XRP, and Eth have become increasingly popular over the past few years. They're also becoming an important part of our financial system.",
+      tag1: "chimoney news",
+      tag2: "project utility",
+      time: "3 mins read",
+    },
+    {
+      id: 4,
+      name: "Oyin Dawodu",
+      date: "Apr, 18th 2023",
+      title: "Contributing articles to Chimoney Community",
+      article:
+        "Are you passionate about sharing your expertise and making a valuable contribution to an active online community? If so, then this blog is for you, as we not only provide a step-by-step guide to get started with Chimoney's API but also offer insights and tips on how to leverage your skills to enhance the online community.",
+      tag1: "Chimoney news",
+      tag2: "project utility",
+      time: "4 mins read",
+    },
+    {
+      id: 5,
+      name: "Oyin Dawodu",
+      date: "Apr, 18th 2023",
+      title: "Getting Started with Chimoney's API",
+      article:
+        "Do you wish to learn how to get started with Chimoney's API? Then this blog is for you, as we provide a step-by-step guide to help you integrate Chimoney's API seamlessly into your projects.",
+      tag1: "chimoney news",
+      tag2: "project utility",
+      time: "3 mins read",
+    },
+    {
+      id: 6,
+      name: "Phylis Atieno",
+      date: "May, 18th 2023",
+      title: "How to spend your crypto in 2022 and beyond",
+      article:
+        "Cryptocurrencies like Bitcoin, XRP, and Eth have become increasingly popular over the past few years. They're also becoming an important part of our financial system.",
       tag1: "chimoney news",
       tag2: "project utility",
       time: "3 mins read",
@@ -43,32 +76,33 @@ const Card = (data) => {
   let content = "";
   for (var i = 0; i < data.length; i++) {
     content += `
-        <div class="blog-post">
-            <img class="blog-image" src="assets/images/blog-image.png" />
-            <div>
-                <div class="profile">
-                    <img class="profile-picture" src="assets/images/Author.svg" />
-                    <p class="name">${data[i].name}</p>
-                    <p class="date">${data[i].date}</p>
-                </div>
-                    
-                <a href="#" class="title">${data[i].title}</a>
-                <p class="article">${data[i].article}</p>
+            <div class="blog-card">
+              <img class="blog-image" src="assets/images/blog-image.png" />
+              <div class="profile">
+                  <img class="profile-picture" src="assets/images/Author.svg" />
+                  <p class="name">${data[i].name}</p>
+                  &#x2022;
+                  <p class="date">${data[i].date}</p>
+              </div>
+                  
+              <a href="#" class="blog-title">${data[i].title}</a>
+              <p class="blog-article">${data[i].article}</p>
 
-                <div class="article-footer">
-                    <a href="#" class="tag" >${data[i].tag1}</a>
-                    <a href="#" class ="tag" >${data[i].tag2}</a>
-                    <p class="time">${data[i].time}</p>
-                </div>
+              <div class="blogcard-footer">
+                  <div>
+                    <a href="#" class="blog-tag" >${data[i].tag1}</a>
+                    <a href="#" class ="blog-tag" >${data[i].tag2}</a>
+                  </div>
+                  <p class="blog-read-time">${data[i].time}</p>
+              </div>
             </div>
-         </div> 
       `;
   }
   document.getElementById("data").innerHTML = content;
 };
 Card(data);
 
-/* End of Featured post -------- --------------------------------------
+/* End of Featured post ---------------------------------------------
 ----------------------------------------------------------------*/
 
 // footer copyright year
