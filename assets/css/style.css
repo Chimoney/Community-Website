@@ -886,8 +886,10 @@ body {
       object-position: center;
    }
 
-   .footer .img-div img.small {
+   .footer .img-div .small {
       display: none;
+      margin: 0;
+      padding: 0;
    }
 
    .footer .bg1 {
@@ -1050,6 +1052,12 @@ body {
 }
 
 @media screen and (max-width: 601px) {
+
+   footer{
+      margin-block-start: 3rem;
+      max-height: min-content;
+      /* TODO: remove extra height from footer end */
+   }
    .footer .img-div img.big {
       display: none;
    }
@@ -1058,7 +1066,6 @@ body {
       width: 100%;
       position: relative;
       height: 100dvh;
-
    }
 
    .footer .img-div {
@@ -1077,11 +1084,11 @@ body {
       object-fit: cover;
    }
 
-   .footer .bg1 {
+   /* .footer .bg1 {
       width: 100%;
       background: url(../images/footerImgSmall.svg) no-repeat center;
       background-size: cover;
-   }
+   } */
 
    .footer .section {
       display: grid;
@@ -1139,6 +1146,7 @@ body {
       justify-content: space-evenly;
       padding: 0;
       margin: 0;
+      padding-top: 1rem;
       width: 100%;
       justify-items: center;
    }
@@ -1155,7 +1163,7 @@ body {
    }
 
    .footer .section .left_sec ul a img {
-      width: 100%;
+      width: 35px;
    }
 
    .footer .section .right_sec {
@@ -1169,27 +1177,33 @@ body {
       width: 50%;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: start;
       align-items: center;
-      text-align: center;
+      text-align: left;
+
+      >h3 {
+         font-family: 'Poppins';
+         font-style: normal;
+         font-weight: 600;
+         font-size: 4.8vw;
+         line-height: 7.46vw;
+         color: #670B78;
+         text-align: left;
+         margin-left: -20px;
+      }
    }
 
    .footer .section .right_sec .articles:nth-child(3) {
       width: 100%;
       text-align: center;
+      align-self: center;
+
+      >h3 {
+         align-self: center;
+      }
    }
 
-   .footer .section .right_sec .articles h3 {
-      font-family: 'Poppins';
-      font-style: normal;
-      font-weight: 600;
-      font-size: 4.8vw;
-      line-height: 7.46vw;
-      color: #670B78;
-
-   }
-
-   .footer .section .right_sec .articles ul {
+   .footer .section .right_sec .articles .footer .section .right_sec .articles ul {
       display: grid;
       align-items: center;
       row-gap: 4vw;
@@ -1223,7 +1237,7 @@ body {
       margin-top: 10.5vw;
       border-top: 0.267vw solid #670B78;
       padding-block-start: 2rem;
-      margin-block-end: -2rem;
+      
    }
 
    .footer .copyright p {
