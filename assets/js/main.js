@@ -1,5 +1,6 @@
-//FEATURED POST***********************
-//ARTICLE CONTENT DATA
+//================================================
+//      Blog Articles Content Data and Code
+//================================================
 let data = {
   data: [
     {
@@ -71,6 +72,7 @@ let data = {
   ],
 };
 
+/*==================== Blog articles code =====================*/
 const Card = (data) => {
   data = data.data;
   let content = "";
@@ -102,8 +104,9 @@ const Card = (data) => {
 };
 Card(data);
 
-/* End of Featured post ---------------------------------------------
-----------------------------------------------------------------*/
+/* ===========================================
+              Copyright Year
+=============================================*/
 
 // footer copyright year
 function getCopyRightYear() {
@@ -114,7 +117,9 @@ function getCopyRightYear() {
 }
 getCopyRightYear();
 
-// navbarr responsiveness
+// ===============================================
+//             navbarr responsiveness
+//=================================================
 
 document.addEventListener("DOMContentLoaded", function () {
   const menuIcon = document.querySelector(".menu_icon");
@@ -135,7 +140,10 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// ==================================================
 // Function to remove <br> elements on devices with a maximum width of 767px
+//====================================================
+
 function removeBrOnSmallDevices() {
   if (window.innerWidth <= 767) {
     // Select elements containing <br> elements
@@ -148,6 +156,29 @@ function removeBrOnSmallDevices() {
   }
 }
 
-// Call the above function when the window is loaded and resized
+/* Call the above function when the window is loaded and resized */
 window.addEventListener("load", removeBrOnSmallDevices);
 window.addEventListener("resize", removeBrOnSmallDevices);
+
+// ==================================================
+//                  tabs section
+//====================================================
+function openTabAndActivate(event, tabName) {
+  // Hide all tabs
+  var tabs = document.getElementsByClassName("tab");
+  for (var i = 0; i < tabs.length; i++) {
+    tabs[i].style.display = "none";
+  }
+
+  // Show the selected tab
+  document.getElementById(tabName).style.display = "block";
+
+  // Remove active class from all tab items
+  var tabItems = document.getElementsByClassName("tab_item");
+  for (var i = 0; i < tabItems.length; i++) {
+    tabItems[i].classList.remove("active");
+  }
+
+  // Add active class to the clicked tab item
+  event.currentTarget.classList.add("active");
+}
