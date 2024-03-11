@@ -14,11 +14,27 @@
 
     gtag('config', 'G-NM34VFTB3N')
   </script>
+
+  <!-- meta info -->
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <meta name="title" content="Chimoney Community Website" />
+  <meta name="description" content="Chimoney Community Website" />
+  <meta name="keywords" content="Chimoney, Community, Chimoney Community, Chimoney Community Website" />
+  <meta name="author" content="Chimoney" />
+  <meta property="og:title" content="Chimoney Community Website" />
+  <meta property="og:description" content="Chimoney Community Website" />
+  <meta property="og:image" content="assets/images/site-icon.svg" />
+  <meta property="og:url" content="https://chimoney.github.io/Community-Website/" />
+
+  <!-- site icon -->
+  <link rel="icon" href="assets/images/site-icon.svg" type="image/svg+xml" />
   <title>Chimoney Community Website</title>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
 
   <!-- Favicons -->
   <link href="assets/images/Chimoney.png" rel="icon" />
@@ -32,39 +48,41 @@
   <div class="navbar">
     <nav>
       <div class="navbar-logo">
-        <img src="assets/images/navlogo.svg" alt="Chimoney">
+        <a href="#"><img src="assets/images/navlogo.svg" class="logo" alt="Chimoney"></a>
+        <img src="assets/images/close.svg" class="close_icon" alt="close icon">
       </div>
       <div class="nav-link">
-
         <ul>
-          <li><a href="#">Community</a></li>
-          <li><a href="#">Blogs</a></li>
-          <li><a href="#">Events</a></li>
+          <li><a class="link" href="#community">Community</a></li>
+          <li><a class="link" href="#blogs">Blogs</a></li>
+          <li><a class="link" href="#events">Events</a></li>
         </ul>
       </div>
       <div class="nav-item">
-        <a href="https://dash.chimoney.io/auth/signin"><button id="sign-in">Sign in</button></a>
-        <a href="https://chimoney.io/book-a-demo"><button id="contact-sales">Contact sales</button></a>
+        <a href="https://dash.chimoney.io/auth/signin"><button class="link" id="sign-in">Sign in</button></a>
+        <a href="https://chimoney.io/book-a-demo"><button class="navbar-btn link" id="contact-sales">Contact
+            sales</button></a>
       </div>
+
+      <img src="assets/images/menu.svg" class="menu_icon" alt="menu icon">
     </nav>
   </div>
   <!-- End of Navbar -->
 
   <!-- Hero section -->
-  <div class="hero-section">
+  <div class="hero-section" id="community">
     <div class="heading">
-      <h1>Find your place in the</h1>
-      <h1>Chimoney Community</h1>
-      <h3>Whether you're a beginner, expert, developer, or</h3>
-      <h3>designer, everyone is welcome to join our</h3>
-      <h3>international network of users.</h3>
+      <h1>Find your place in the<br> Chimoney Community</h1>
+      <p>Whether you're a beginner, expert, developer, or<br> designer, everyone is welcome to join our<br>
+        international
+        network of users.</p>
       <a
         href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSeuFDcnkrddQG1sPoO3eCH2F65Z8o8wrBqTMqHMNOUOC1cY2w/viewform?utm_medium=headbanner&utm_source=web">
-        <button id="contact-sales">JOIN OUR COMMUNITY</button>
+        <button class="hero-button" id="contact-sales">JOIN OUR COMMUNITY</button>
       </a>
     </div>
     <div class="header-image">
-      <img src="assets/images/Illustrations.svg" alt="Image">
+      <img src="assets/images/hero-image.png" alt="Image">
     </div>
   </div>
   <!--End of Hero section-->
@@ -73,23 +91,28 @@
   <div class="community-container">
     <h2 class="comm-part-h2">As part of the Community, you’ll:</h2>
     <div class="comm-part-grid">
-      <div class="comm-part-flex"><img src="assets/images/whitemark.svg" alt="">
+      <div class="comm-part-flex">
+        <img src="assets/images/whitemark.svg" alt="">
         <p class="comm-part-p">Expand your network</p>
       </div>
-      <div class="comm-part-flex"><img src="assets/images/whitemark.svg" alt="">
+      <div class="comm-part-flex">
+        <img src="assets/images/whitemark.svg" alt="">
         <p class="comm-part-p">Build your portfolio</p>
-    
       </div>
-      <div class="comm-part-flex"><img src="assets/images/whitemark.svg" alt="">
+      <div class="comm-part-flex">
+        <img src="assets/images/whitemark.svg" alt="">
         <p class="comm-part-p">Build meaningful relationships</p>
       </div>
-      <div class="comm-part-flex"><img src="assets/images/whitemark.svg" alt="">
+      <div class="comm-part-flex">
+        <img src="assets/images/whitemark.svg" alt="">
         <p class="comm-part-p">Get early announcements</p>
       </div>
-      <div class="comm-part-flex"><img src="assets/images/whitemark.svg" alt="">
+      <div class="comm-part-flex">
+        <img src="assets/images/whitemark.svg" alt="">
         <p class="comm-part-p">Get meaningful feedback</p>
       </div>
-      <div class="comm-part-flex"><img src="assets/images/whitemark.svg" alt="">
+      <div class="comm-part-flex">
+        <img src="assets/images/whitemark.svg" alt="">
         <p class="comm-part-p">Opportunities to test products</p>
       </div>
     </div>
@@ -103,7 +126,6 @@
       <button class="tab_item tab_btn" onclick="openTabAndActivate(event, 'Events')">Events</button>
       <button class="tab_item tab_btn" onclick="openTabAndActivate(event, 'Videos')">Videos</button>
     </div>
-<!--feature/tab-section -->
 
     <div id="Blogs" class="tab_container tab">
       <p class="tab_text">Our blog posts are curated to help you get familiar with Chimoney’s product and services. Dive
@@ -134,49 +156,42 @@
   </section>
   <!-- End of tab section -->
 
-  </div>
-  <!--End as part of the community section-->
-
-
   <!--featured post-->
-  <div class="feature-container">
-    <div class="center-container">
-      <p class="feature-heading">Featured posts</p>
-      <div class="line">
-        <hr class="line1">
-        <hr class="line2">
-      </div>
-      <div class="data" id="data"></div>
+  <div class="feature-container" id="blogs">
+    <p class="feature-heading">Featured posts</p>
+    <div class="blogpost-container">
 
-      <button class="see-more">see more</button>
+      <div class="blog-posts">
+        <div id="data"></div>
+      </div>
+
+      <button class="see-more">See more</button>
     </div>
   </div>
   <!--   End of Featured post -->
 
   <!--   Community Care -->
   <div class="comm-care">
-    <div class="comm-care-main">
-      <div class="comm-care-section-1">
+    <div class="comm-care-container">
+      <div class="comm-care-title">
         <h3>Community Care</h3>
       </div>
-      <div class="comm-care-section-2">
-        <div class="comm-care-section-2-1">
-          <span class="comm-care-description">
-            We are committed to working together to ensure the safety of our comunity. All community members, leaders,
-            attendees, speaker, sponsors, volunteers etc. must abide by the code of conduct
-          </span>
-        </div>
-        <div class="comm-care-section-2-2">
-          <a href="https://docs.google.com/document/d/1ePyYNcM-uo387XwTtTvrxhA1FOVzL6ykVn38cZy3fZY/edit?usp=sharing">
-            <button class="comm-care-btn">
-              Read Code of Conduct
-            </button>
-          </a>
-        </div>
+      <div class="comm-care-content">
+        <P class="comm-care-description">
+          We are committed to working together to ensure the safety of our comunity. All community members, leaders,
+          attendees, speaker, sponsors, volunteers etc. must abide by the code of conduct
+        </P>
+        <a href="https://docs.google.com/document/d/1ePyYNcM-uo387XwTtTvrxhA1FOVzL6ykVn38cZy3fZY/edit?usp=sharing">
+          <button class="comm-care-btn">
+            Read Code of Conduct
+          </button>
+        </a>
       </div>
     </div>
   </div>
 
+
+  <!-- CTA section -->
   <div class="make-value-card">
     <div class="make-value-content">
       <p>
@@ -195,14 +210,14 @@
 
     </div>
   </div>
-  <!-- End of hero section -->
+  <!-- End of CTA section -->
 
   <!-- Footer -->
   <footer class="footer">
     <div class="bg1 bigscreen">
       <div class="img-div">
         <img class="big" src="assets/images/bgGreyBig.svg" alt="background-image">
-        <img class="small" src="assets/images/bgSmall.svg" alt="background-image">
+        <!-- <img class="small" src="assets/images/bgSmall.svg" alt="background-image"> -->
       </div>
       <section class="section">
         <div class="links">
@@ -230,7 +245,7 @@
               <h3>Products</h3>
               <ul>
                 <li>
-                  <a href="https://chimoney.io/payouts">Payout</a>
+                  <a href="https://chimoney.io/chipay">ChiPay</a>
                 </li>
                 <li>
                   <a href="https://chimoney.io/chiconnect">ChiConnect</a>
@@ -283,9 +298,7 @@
   </footer>
   <!-- End of Footer -->
 
-  <!-- scripts -->
   <script src="assets/js/main.js"></script>
-
 </body>
 
 </html>
