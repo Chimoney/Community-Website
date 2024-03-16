@@ -9,10 +9,9 @@ Kindly go through the [project guideline](https://github.com/Chimoney/Community-
 ## Sections
 The site showcases different sections of content that include:
 
-* [Blogs](https://chimoney.github.io/Community-Website/#blogs)
+* Blogs
 * Tutorials
-* [Events](https://chimoney.github.io/Community-Website/#events)
-* [Community](https://chimoney.github.io/Community-Website/#community)
+* Events
 
 # Community Site Design
 
@@ -56,6 +55,13 @@ Please work on problems marked "first-time contributors" if you are a first-time
 ### If you would be working with ChiConnect 
 [Here is an article](https://community-chimoney.hashnode.dev/getting-started-with-chimoneys-api-chiconnect) to quickly set you on track.
 
+## Community
+
+### Got Questions?
+
+- Join the conversation in our Discord. (https://discord.gg/j8Dhxn7aHE)
+- Find Chimoney videos and release overviews on our YouTube Channel (https://www.youtube.com/@chimoney_io)
+- Check out our blog posts for guides and workshops on our products. (https://chimoney.io/blogs/)
 
 
 ### Happy opensourcing :smile: !!
