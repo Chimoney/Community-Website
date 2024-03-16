@@ -35,19 +35,19 @@ Please work on problems marked "first-time contributors" if you are a first-time
 
 ## Start Contributing
 
-### AS A DEVELOPER :
+### As a developer :
 1. Pick an [Issue](https://github.com/Chimoney/Community-Website/issues) and request for it to be assigned to you by tagging @Khadeeejah and @phyleria 
 2. Fork the repo from [Chimoney-Community-Website](https://github.com/Chimoney/Community-Website)
 3. Clone the forked repo with by doing `git clone https://github.com/your_username/Community-Website.git` where `your_username` is your GitHub username.
 4. Commit your Changes
 5. Make a Pull Request with detailed info on your change with screenshots if possible and please tag any associated parties, @Khadeeejah @phyleria @elegant1T for a review
 
-### AS A TECHNICAL WRITER :
+### As a technical writer :
 1. Go through the [contributor's guideline](https://community-chimoney.hashnode.dev/contributing-articles-to-the-chimoney-community) for submitting an article.
 2. Pick an [Issue](https://github.com/Chimoney/Community-Website/issues) with the label `content` and request for it to be assigned to you by tagging @mzoyinda and @phyleria.
 3. submit the link to your article and ask for a review tagging @mzoyinda and @phyleria.
 
-### AS A VIDEO CONTENT CREATOR (to be launched soon..)
+### As a video content creator (to be launched soon..)
 1. Go through the contributor's guidelines for submitting video content.
 2. Pick an [Issue](https://github.com/Chimoney/Community-Website/issues) with the label `content` and request for it to be assigned to you by tagging @mzoyinda and @phyleria.
 3. submit the link to your video and ask for a review tagging @mzoyinda and @phyleria.
