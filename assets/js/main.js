@@ -40,10 +40,9 @@ let data = {
       id: 4,
       name: "Oyin Dawodu",
       date: "Apr, 18th 2023",
-      title: "Contributing articles to Chimoney Community",
+      title: "A Guide to Integrating the Chimoney Slack Bot",
       article:
-        "Are you passionate about sharing your expertise and making a valuable contribution to an active online community? If so, then this blog is for you, as we not only provide a step-by-step guide to get started with Chimoney's API but also offer insights and tips on how to leverage your skills to enhance the online community.",
-      tag1: "Chimoney news",
+        "Streamline money transfers within your Slack workspace with the Chimoney Slack Bot, a Python app that handles user-to-user funds seamlessly. Follow this guide to install and set up the bot, making your Slack a hub for convenient financial transactions.",
       tag2: "project utility",
       time: "4 mins read",
     },
@@ -58,17 +57,16 @@ let data = {
       tag2: "project utility",
       time: "3 mins read",
     },
-    // {
-    //   id: 6,
-    //   name: "Phylis Atieno",
-    //   date: "May, 18th 2023",
-    //   title: "How to spend your crypto in 2022 and beyond",
-    //   article:
-    //     "Cryptocurrencies like Bitcoin, XRP, and Eth have become increasingly popular over the past few years. They're also becoming an important part of our financial system.",
-    //   tag1: "chimoney news",
-    //   tag2: "project utility",
-    //   time: "3 mins read",
-    // },
+    {
+      id: 6,
+      name: "Phylis Atieno",
+      date: "May, 18th 2023",
+      title: "A Complete Guide to Integrating the Chimoney GitHub Bot",
+      article:
+        "Open source thrives on rewarding contributors. The Chimoney GitHub Bot simplifies sponsorship with the Chimoney API. This guide walks you through integration, making it easy to show your appreciation.",
+      tag2: "project utility",
+      time: "3 mins read",
+    },
   ],
 };
 
