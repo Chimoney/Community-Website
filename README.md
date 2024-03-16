@@ -58,3 +58,10 @@ Please work on problems marked "first-time contributors" if you are a first-time
 
 
 ### Happy opensourcing :smile: !!
+
+#### Community
+Got Questions?
+
+Join the conversation in our Discord. (https://discord.gg/j8Dhxn7aHE)
+Find Chimoney videos and release overviews on our YouTube Channel (https://www.youtube.com/@chimoney_io)
+Check out our blog posts for guides and workshops on our products. (https://chimoney.io/blogs/)
