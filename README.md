@@ -53,7 +53,7 @@ Please work on problems marked "first-time contributors" if you are a first-time
 2. Pick an [Issue](https://github.com/Chimoney/Community-Website/issues) with the label `content` and request for it to be assigned to you by tagging @mzoyinda and @phyleria.
 3. submit the link to your video and ask for a review tagging @mzoyinda and @phyleria.
 
-### If you would be working with ChiConnect 
+### If you would be working with Chimoney's Developer API 
 [Here is an article](https://community-chimoney.hashnode.dev/getting-started-with-chimoneys-api-chiconnect) to quickly set you on track.
 
 # Community
