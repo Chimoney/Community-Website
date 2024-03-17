@@ -79,6 +79,7 @@ body {
 
 #sign-in:hover {
    color: #670B78;
+   cursor: pointer;
 }
 
 #contact-sales {
@@ -100,6 +101,7 @@ body {
    background-color: #ffffff;
    box-shadow: 0px 0px 5px #670B78;
    border-radius: 100vw;
+   cursor: pointer;
 }
 
 .menu_icon {
