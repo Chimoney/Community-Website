@@ -9,9 +9,9 @@ Kindly go through the [project guideline](https://github.com/Chimoney/Community-
 ## Sections
 The site showcases different sections of content that include:
 
-* [Blogs](https://chimoney.github.io/Community-Website/#blogs)
-* Tutorials
-* [Events](https://chimoney.github.io/Community-Website/#events)
+* [Blogs](https://chimoney.github.io/Community-Website/#tutorials)
+* [Tutorials]()
+* [Events](https://chimoney.github.io/Community-Website/#blogs)
 * [Community](https://chimoney.github.io/Community-Website/#community)
 
 # Community Site Design
